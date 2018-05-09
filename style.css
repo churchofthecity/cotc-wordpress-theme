@@ -1,0 +1,266 @@
+/*
+Theme Name: Church of the City
+Theme URI: https://github.com/churchofthecity/cotc-wordpress-theme
+Description: Church of the City - A child theme of Bridge Theme
+Author: Jason York
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+/* Events */
+
+.ecs-event-list .ecs-event {
+  list-style: none;
+  margin-bottom: 1.5em;
+  min-height: 95px;
+}
+
+.ecs-event-list li.ecs-event p {
+  margin-bottom: 0px;
+}
+.ecs-event-list .ecs-event .entry-title {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.ecs-event-list .ecs-event img {
+  width: 95px;
+  float: left;
+  padding-right: 5px;
+}
+
+.ecs-event-list .duration {
+  display: block;
+  margin-top: -5px;
+}
+
+.ecs-event-list .ecs-excerpt {
+    line-height: 1.3em;
+    margin-top: 0.8em;
+}
+.ecs-event-list .summary, .ecs-event-list .ecs-excerpt, .ecs-event-list .read-more, .ecs-event-list .duration {
+    padding: 0 0 0 116px;
+}
+
+.ecs-event-list .duration {
+    margin-top: 0.05em;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+/************ Homepage ******************/
+/* Secondary Call to Action */
+
+.secondaryCTA {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  padding: 1em;
+}
+
+.secondaryCTA .ctaItem {
+  margin: 3em;
+}
+
+.secondaryCTA .ctaButton:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #ffffff;
+
+}
+.secondaryCTA .ctaButton {
+  color: rgb(49, 49, 49);
+  border-color: rgb(49, 49, 49);
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Center the main content vertically */
+@media only screen and (min-width: 801px) {
+  .slider_content.center {
+    transform: translate(0px, -50%);
+  }
+}
+
+/* Slider Button Styling*/
+
+.carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
+   color: #0a0a0a !important;
+   background-color: transparent;
+   border-radius: 2px;
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
+   color: white !important;
+   background-color: #0a0a0a;
+   border-color: #0a0a0a;
+   border-radius: 0px;
+}
+
+.q_slider .qbutton {
+   font-family: "Gotham SSm A", "Gotham SSm B";
+   font-weight:400;
+   font-size:14px;
+   font-style:bold;
+   text-transform:none;
+   text-align:center;
+   height:55px;
+   width:200px;
+   line-height:55px;
+   padding-left:5px;
+   padding-right:5px;
+}
+
+@media (max-width: 1024px) {
+  .carousel-inner .slider_content .text .qbutton {
+    max-width: 100%;
+  }
+  .carousel-inner .slider_content .text .qbutton.white {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+#qode-home-slider-3 {
+  background-color: #262626;
+}
+
+/* Hide Blog Info*/
+
+.single-post  span.post_author{
+display: none;
+}
+
+.blog_single article .post_info{
+   display: none;
+}
+
+.blog_holder article .post_info{
+display: none;
+}
+
+.hide-field{
+   display: none;
+}
+
+blockquote {
+text-align: center;
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: italic;
+font-weight: 400;
+}
+
+/* App Mobile Template */
+.container_inner_app {
+  margin: 0;
+}
+
+/*Gotham Font*/
+
+p {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 300;
+}
+
+h1 {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 700;
+}
+
+h2 {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 700;
+}
+
+h3 {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 700;
+}
+
+h4 {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 300;
+}
+
+header {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 300;
+}
+
+footer {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 300;
+}
+
+subtitle {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 700;
+}
+
+h4.q_slide_subtitle {
+font-family: "Gotham SSm A", "Gotham SSm B";
+font-style: normal;
+font-weight: 700;
+}
+
+
+/* Disable the start image for Revolution slider on desktop only  */
+@media only screen and (min-width: 801px) {
+  .rev_slider .rs-fullvideo-cover, .rev_slider .defaultimg {
+    display: none !important;
+  }
+
+}
+
+.rev_slider .tp-loader {
+  display: none !important;
+}
+
+/* Gravity forms button not centering on mobile */
+body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],body .gform_wrapper input[type=reset] {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .rev_slider .rs-background-video-layer {
+   display: none;
+  }
+}
+
+/* Event list date thumbnail for events that do not have a thumbnail image */
+.eventDateThumbnail {
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8em;
+  float: left;
+}
+
+.eventDateThumbnail--month {
+  display: block;
+  padding: 0 0.2em;
+}
+
+.eventDateThumbnail--day {
+  display: block;
+  font-size: 3em;
+  padding-top: 0.15em;
+  display: block;
+  font-weight: 600;
+}

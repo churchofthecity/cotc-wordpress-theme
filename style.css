@@ -264,3 +264,14 @@ body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],bo
   display: block;
   font-weight: 600;
 }
+
+.cotc-campus {
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  display: inline-block;
+  margin-right: 0.5em;
+  text-transform: uppercase;
+  background: black;
+  padding: 0.1em 0.1em 0.1em 0.15em;
+  color: white;
+  font-weight: bold;
+}

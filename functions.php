@@ -81,3 +81,17 @@ function event_date_in_rss($content) {
   return $content;
 }
 // add_filter('the_content_feed', 'event_date_in_rss');
+
+function campus_code_for_event($event) {
+
+  $CAMPUS_CODES = array("franklin"    => "FR", "spring-hill"=>"SH",
+                        "sylvan-park" => "SP", "east-nashville" => "EN");
+
+  $event_cats = tribe_get_event_cat_slugs($event->id);
+
+  foreach($CAMPUS_CODES as $shortname => $code) {
+    if (in_array($shortname, $event_cats)) {
+      return $code;
+    }
+  }
+}

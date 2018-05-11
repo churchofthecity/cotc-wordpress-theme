@@ -135,7 +135,7 @@ Template: bridge
 /* Hide Blog Info*/
 
 .single-post  span.post_author{
-display: none;
+  display: none;
 }
 
 .blog_single article .post_info{
@@ -143,11 +143,11 @@ display: none;
 }
 
 .blog_holder article .post_info{
-display: none;
+  display: none;
 }
 
 .hide-field{
-   display: none;
+  display: none;
 }
 
 blockquote {
@@ -261,7 +261,6 @@ body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],bo
   display: block;
   font-size: 3em;
   padding-top: 0.15em;
-  display: block;
   font-weight: 600;
 }
 
@@ -281,4 +280,26 @@ body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],bo
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+/* I don't know why, but gforms removes the border from all inputs, so
+put it back here */
+body .gform_wrapper .chzn-choices,
+body .gform_wrapper .chzn-container .chzn-drop,
+body .gform_wrapper .chzn-container .chzn-single,
+body .gform_wrapper .chzn-container-multi .chzn-choices,
+body .gform_wrapper .chzn-container-single .chzn-single,
+body .gform_wrapper .chzn-container-single .chzn-single b,
+body .gform_wrapper .chzn-container-single .chzn-single div,
+body .gform_wrapper .gf_progressbar,
+body .gform_wrapper input[type=email],
+body .gform_wrapper input[type=number],
+body .gform_wrapper input[type=password],
+body .gform_wrapper input[type=tel],
+body .gform_wrapper input[type=text],
+body .gform_wrapper input[type=url],
+body .gform_wrapper li.gfield.gfield_error,
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning,
+body .gform_wrapper select,
+body .gform_wrapper textarea {
+  border: 1px solid #0a0a0a !important;
 }

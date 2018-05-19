@@ -275,6 +275,11 @@ body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],bo
   font-weight: bold;
   line-height: 1.7em;
 }
+.cotc-campus.inverted {
+  color: black;
+  background: white;
+  border: 1px solid #aaa
+}
 
 .tribe-events-calendar .tribe_events {
   display: flex;
@@ -302,4 +307,16 @@ body .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_credi
 body .gform_wrapper select,
 body .gform_wrapper textarea {
   border: 1px solid #0a0a0a !important;
+}
+
+.tribe-bar-cotc-campus-filter {
+    float: left;
+    margin-bottom: 0;
+    padding: 15px;
+}
+.tribe-bar-search-filter, .tribe-bar-date-filter, .tribe-bar-submit {
+	width: 20%;
+}
+.tribe-bar-submit {
+    margin-left: 0;
 }

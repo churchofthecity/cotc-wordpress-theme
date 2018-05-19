@@ -1,4 +1,8 @@
 <?php
+function cotc_campus_codes() {
+  return array("franklin"    => "FR", "spring-hill"=>"SH",
+                      "sylvan-park" => "SP", "east-nashville" => "EN");
+}
 
 function remove_lostpassword_text ( $text ) {
   if ($text == 'Lost your password?'){$text = '';}
@@ -84,14 +88,41 @@ function event_date_in_rss($content) {
 
 function campus_code_for_event($event) {
 
-  $CAMPUS_CODES = array("franklin"    => "FR", "spring-hill"=>"SH",
-                        "sylvan-park" => "SP", "east-nashville" => "EN");
-
   $event_cats = tribe_get_event_cat_slugs($event->id);
 
-  foreach($CAMPUS_CODES as $shortname => $code) {
+  foreach(cotc_campus_codes() as $shortname => $code) {
     if (in_array($shortname, $event_cats)) {
       return $code;
     }
   }
+}
+/* Setup campus selection in the event calendar filter bar */
+add_filter( 'tribe-events-bar-filters', 'setup_cotc_campus_in_event_bar', -1, 1 );
+
+function setup_cotc_campus_in_event_bar( $filters ) {
+  $query = tribe_get_global_query_object();
+  $eventsSlug = tribe_get_option( 'eventsSlug');
+
+  $campuses = "";
+  foreach(cotc_campus_codes() as $shortname => $code) {
+    $class = "";
+    if ($query->query_vars["tribe_events_cat"] == $shortname) {
+      $class = "inverted";
+      $link = "/" . $eventsSlug;
+    } else {
+      $link = "/" . $eventsSlug . "/category/" . $shortname;
+    }
+    $campuses .= "<a class='cotc-campus " . $class . "' href=". $link . ">" . $code . "</a>";
+  }
+  $campuses .= "<a href=/". $eventsSlug . ">All</a>";
+
+  if ( tribe_get_option( 'tribeDisableTribeBar', false ) == false ) {
+    $filters['tribe-bar-cotc-campus'] = array(
+      'name'    => 'tribe-bar-cotc-campus',
+      'caption' => esc_html__( 'Campus', 'the-events-calendar' ),
+      'html'    => $campuses
+    );
+  }
+
+  return $filters;
 }

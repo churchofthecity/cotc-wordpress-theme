@@ -286,6 +286,11 @@ body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],bo
   flex-direction: row;
   align-items: center;
 }
+
+#tribe-events-content .tribe-events-calendar div[id*=tribe-events-event-] h3.tribe-events-month-event-title {
+  width: 100%;
+}
+
 /* I don't know why, but gforms removes the border from all inputs, so
 put it back here */
 body .gform_wrapper .chzn-choices,

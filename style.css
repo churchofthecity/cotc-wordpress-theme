@@ -319,9 +319,47 @@ body .gform_wrapper textarea {
     margin-bottom: 0;
     padding: 15px;
 }
-.tribe-bar-search-filter, .tribe-bar-date-filter, .tribe-bar-submit {
+/* .tribe-bar-search-filter, .tribe-bar-date-filter, .tribe-bar-submit {
 	width: 20%;
+} */
+.tribe-bar-mini .tribe-bar-search-filter {
+    width: 40%;
+}
+.tribe-bar-search-filter {
+    width: 50%;
 }
 .tribe-bar-submit {
     margin-left: 0;
+}
+/* Calendar day of week bar */
+.tribe-events-calendar thead th {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Export events button on the bottom of the calendar */
+.tribe-events-ical.tribe-events-button {
+  display: none !important;
+}
+/* Calendar date filter */
+.tribe-bar-date-filter {
+  display: none;
+}
+
+/* View as... link on calendar */
+.tribe-bar-views-inner, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
+    background: black;
+    color: white;
+}
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option.tribe-bar-active a:hover {
+    background: white;
+    color: black;
+}
+
+/* Individual Event Page */
+
+/* Remove thumbnail for related events */
+.tribe-related-events .tribe-related-events-thumbnail {
+  display: none;
 }

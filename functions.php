@@ -98,7 +98,6 @@ function campus_code_for_event($event) {
 }
 /* Setup campus selection in the event calendar filter bar */
 add_filter( 'tribe-events-bar-filters', 'setup_cotc_campus_in_event_bar', -1, 1 );
-
 function setup_cotc_campus_in_event_bar( $filters ) {
   $query = tribe_get_global_query_object();
   $eventsSlug = tribe_get_option( 'eventsSlug');
@@ -119,7 +118,7 @@ function setup_cotc_campus_in_event_bar( $filters ) {
   if ( tribe_get_option( 'tribeDisableTribeBar', false ) == false ) {
     $filters['tribe-bar-cotc-campus'] = array(
       'name'    => 'tribe-bar-cotc-campus',
-      'caption' => esc_html__( 'Campus', 'the-events-calendar' ),
+      'caption' => esc_html__( 'Neighborhood Church', 'the-events-calendar' ),
       'html'    => $campuses
     );
   }

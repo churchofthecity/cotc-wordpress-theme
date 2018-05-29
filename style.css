@@ -319,6 +319,11 @@ body .gform_wrapper textarea {
   margin-bottom: 0;
   padding: 15px;
 }
+
+#tribe-bar-form.tribe-bar-collapse .tribe-bar-cotc-campus-filter {
+  padding-bottom: 25px;
+}
+
 .tribe-bar-mini .tribe-bar-search-filter {
   width: 35%;
 }
@@ -345,7 +350,7 @@ body .gform_wrapper textarea {
   top: 6.3em;
 }
 #tribe-bar-form.tribe-bar-collapse .cotc-legend {
-  top: 5.3em;
+  top: 5.5em;
 }
 /* Calendar day of week bar */
 .tribe-events-calendar thead th {

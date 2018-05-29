@@ -320,17 +320,18 @@ body .gform_wrapper textarea {
   padding: 15px;
 }
 .tribe-bar-mini .tribe-bar-search-filter {
-  width: 40%;
+  width: 35%;
 }
 .tribe-bar-search-filter {
-  width: 50%;
+  width: 45%;
 }
 .tribe-bar-submit {
   margin-left: 0;
 }
 .tribe-bar-cotc-campus-filter .cotc-legend {
+  line-height: 1em;
   position: absolute;
-  top: 7em;
+  top: 7.3em;
   font-size: 0.8em;
 }
 .tribe-bar-cotc-campus-filter .cotc-legend span::after {
@@ -340,6 +341,12 @@ body .gform_wrapper textarea {
   content: "";
 }
 
+#tribe-bar-form.tribe-bar-mini .cotc-legend {
+  top: 6.3em;
+}
+#tribe-bar-form.tribe-bar-collapse .cotc-legend {
+  top: 5.3em;
+}
 /* Calendar day of week bar */
 .tribe-events-calendar thead th {
   background-color: black;

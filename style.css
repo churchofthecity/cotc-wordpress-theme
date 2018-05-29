@@ -315,27 +315,36 @@ body .gform_wrapper textarea {
 }
 
 .tribe-bar-cotc-campus-filter {
-    float: left;
-    margin-bottom: 0;
-    padding: 15px;
+  float: left;
+  margin-bottom: 0;
+  padding: 15px;
 }
-/* .tribe-bar-search-filter, .tribe-bar-date-filter, .tribe-bar-submit {
-	width: 20%;
-} */
 .tribe-bar-mini .tribe-bar-search-filter {
-    width: 40%;
+  width: 40%;
 }
 .tribe-bar-search-filter {
-    width: 50%;
+  width: 50%;
 }
 .tribe-bar-submit {
-    margin-left: 0;
+  margin-left: 0;
 }
+.tribe-bar-cotc-campus-filter .cotc-legend {
+  position: absolute;
+  top: 7em;
+  font-size: 0.8em;
+}
+.tribe-bar-cotc-campus-filter .cotc-legend span::after {
+  content: " | ";
+}
+.tribe-bar-cotc-campus-filter .cotc-legend span:last-child::after {
+  content: "";
+}
+
 /* Calendar day of week bar */
 .tribe-events-calendar thead th {
-    background-color: black;
-    color: white;
-    border: none;
+  background-color: black;
+  color: white;
+  border: none;
 }
 
 /* Export events button on the bottom of the calendar */
@@ -349,12 +358,12 @@ body .gform_wrapper textarea {
 
 /* View as... link on calendar */
 .tribe-bar-views-inner, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 }
 #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option.tribe-bar-active a:hover {
-    background: white;
-    color: black;
+  background: white;
+  color: black;
 }
 
 /* Individual Event Page */

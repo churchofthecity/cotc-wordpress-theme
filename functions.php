@@ -1,8 +1,7 @@
 <?php
-function cotc_campus_codes() {
-  return array("franklin"    => "FR", "spring-hill"=>"SH",
-                      "sylvan-park" => "SP", "east-nashville" => "EN");
-}
+require 'event-calendar.php';
+
+
 
 function remove_lostpassword_text ( $text ) {
   if ($text == 'Lost your password?'){$text = '';}
@@ -48,20 +47,7 @@ function cotc_the_permalink_rss() {
   }
 }
 
-// Override the event link
-add_filter( 'tribe_get_event_link', 'cotc_tribe_get_event_link', 10, 4);
-function cotc_tribe_get_event_link($link, $postId, $full_link, $url ) {
-  $event_url = tribe_get_event_meta( $postId, '_EventURL', true );
-  if ( ! empty( $event_url ) ) {
-    $parseUrl = parse_url( $event_url );
-    if ( empty( $parseUrl['scheme'] ) ) {
-      $event_url = "http://$event_url";
-    }
-    return $event_url;
-  } else {
-    return $link;
-  }
-}
+
 
 // Override the RSS2 feed
 // remove_all_actions( 'do_feed_rss2' );
@@ -83,45 +69,4 @@ function event_date_in_rss($content) {
     $content = '<p><em>Starts ' . tribe_get_start_date( $post, false, 'l F jS Y \a\t h:i A' ) . "</em></p>" . $content;
   }
   return $content;
-}
-// add_filter('the_content_feed', 'event_date_in_rss');
-
-function campus_code_for_event($event) {
-
-  $event_cats = tribe_get_event_cat_slugs($event->id);
-
-  foreach(cotc_campus_codes() as $shortname => $code) {
-    if (in_array($shortname, $event_cats)) {
-      return $code;
-    }
-  }
-}
-/* Setup campus selection in the event calendar filter bar */
-add_filter( 'tribe-events-bar-filters', 'setup_cotc_campus_in_event_bar', -1, 1 );
-function setup_cotc_campus_in_event_bar( $filters ) {
-  $query = tribe_get_global_query_object();
-  $eventsSlug = tribe_get_option( 'eventsSlug');
-
-  $campuses = "";
-  foreach(cotc_campus_codes() as $shortname => $code) {
-    $class = "";
-    if ($query->query_vars["tribe_events_cat"] == $shortname) {
-      $class = "inverted";
-      $link = "/" . $eventsSlug;
-    } else {
-      $link = "/" . $eventsSlug . "/category/" . $shortname;
-    }
-    $campuses .= "<a class='cotc-campus " . $class . "' href=". $link . ">" . $code . "</a>";
-  }
-  $campuses .= "<a href=/". $eventsSlug . ">All</a>";
-
-  if ( tribe_get_option( 'tribeDisableTribeBar', false ) == false ) {
-    $filters['tribe-bar-cotc-campus'] = array(
-      'name'    => 'tribe-bar-cotc-campus',
-      'caption' => esc_html__( 'Neighborhood Church', 'the-events-calendar' ),
-      'html'    => $campuses
-    );
-  }
-
-  return $filters;
 }

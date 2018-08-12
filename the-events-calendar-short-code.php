@@ -205,7 +205,7 @@ class Events_Calendar_Shortcode
 								}
 							} else {
 								$output .= '<a href="' . tribe_get_event_link() . '"><div class="eventDateThumbnail">';
-								$output .= '<span class="stretch eventDateThumbnail--month">' . tribe_get_start_date(null, false, 'F') . '</span>';
+								$output .= '<span class="stretch eventDateThumbnail--month">' . tribe_get_start_date(null, false, 'M') . '</span>';
 								$output .= '<span class="eventDateThumbnail--day">' . tribe_get_start_date(null, false, 'j') . '</span>';
 								$output .= "</div></a>";
 							}

@@ -384,3 +384,10 @@ body .gform_wrapper textarea {
 .tribe-related-events .tribe-related-events-thumbnail {
   display: none;
 }
+
+/* Back to top icon - give it an outline so it can be seen on white backgrounds */
+#back_to_top i.fa-chevron-up {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

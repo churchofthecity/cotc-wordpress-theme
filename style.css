@@ -91,7 +91,7 @@ Template: bridge
 /* Slider Button Styling*/
 
 .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
-   color: #0a0a0a !important;
+   color: #ffffff !important;
    background-color: transparent;
    border-radius: 2px;
 }

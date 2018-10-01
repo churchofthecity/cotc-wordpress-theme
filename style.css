@@ -393,7 +393,7 @@ body .gform_wrapper textarea {
 }
 
 /* Password Protected Forms */
-.post-password-form input[type=password] {
+.post-password-form {
   border: 2px !important;
   border-color: #0a0a0a !important;
 }

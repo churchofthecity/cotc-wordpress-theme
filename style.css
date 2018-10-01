@@ -310,7 +310,6 @@ body .gform_wrapper input[type=url],
 body .gform_wrapper li.gfield.gfield_error,
 body .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning,
 body .gform_wrapper select,
-body .post-password-form input [type=password],
 body .gform_wrapper textarea {
   border: 1px solid #0a0a0a !important;
 }
@@ -391,4 +390,10 @@ body .gform_wrapper textarea {
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+/* Password Protected Forms */
+.post-password-form input[type=password] {
+  border: 2px !important;
+  border-color: #0a0a0a !important;
 }

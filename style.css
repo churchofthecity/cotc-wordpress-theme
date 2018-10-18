@@ -293,6 +293,7 @@ body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],bo
 
 /* I don't know why, but gforms removes the border from all inputs, so
 put it back here */
+body .gform_wrapper input,
 body .gform_wrapper .chzn-choices,
 body .gform_wrapper .chzn-container .chzn-drop,
 body .gform_wrapper .chzn-container .chzn-single,

@@ -398,3 +398,9 @@ body .gform_wrapper textarea {
   border: 2px !important;
   border-color: #0a0a0a !important;
 }
+
+/* Social Buttons on Women's Page */
+.wpb_wrapper {
+  display: flex;
+  justify-content: center;
+}

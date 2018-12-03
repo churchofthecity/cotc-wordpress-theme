@@ -401,6 +401,6 @@ body .gform_wrapper textarea {
 
 /* Social Buttons on Women's Page */
 .wpb_wrapper {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }

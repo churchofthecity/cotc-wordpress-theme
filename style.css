@@ -99,8 +99,8 @@ Template: bridge
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
    color: #0a0a0a !important;
-   background-color: #fff !important;
-   border-color: #fff !important;
+   background: #fff !important;
+   border: #0a0a0a;
    border-radius: 0px;
 }
 

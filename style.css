@@ -400,3 +400,8 @@ body .gform_wrapper textarea {
   border-color: #0a0a0a !important;
 }
 
+
+/* Blog Styling */
+.blog_single article .post_info{
+    display: none;
+}

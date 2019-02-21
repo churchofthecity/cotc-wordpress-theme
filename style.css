@@ -90,7 +90,7 @@ Template: bridge
 
 /* Slider Button Styling*/
 
-.carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
+/* .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
    color: #0a0a0a !important;
    border-color: #0a0a0a !important;
    background-color: transparent;
@@ -102,7 +102,7 @@ Template: bridge
    background: #0a0a0a !important;
    border: #0a0a0a;
    border-radius: 0;
-}
+} */
 
 .q_slider .qbutton {
    font-family: "Gotham SSm A", "Gotham SSm B";

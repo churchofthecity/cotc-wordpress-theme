@@ -91,17 +91,17 @@ Template: bridge
 /* Slider Button Styling*/
 
 .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
-   color: #fff !important;
-   border-color: #fff !important;
+   color: #0a0a0a !important;
+   border-color: #0a0a0a !important;
    background-color: transparent;
    border-radius: 2px;
 }
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
-   color: #0a0a0a !important;
-   background: #fff !important;
+   color: #fff !important;
+   background: #0a0a0a !important;
    border: #0a0a0a;
-   border-radius: 0px;
+   border-radius: 0;
 }
 
 .q_slider .qbutton {

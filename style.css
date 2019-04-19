@@ -97,7 +97,14 @@ Template: bridge
    border-radius: 2px;
 }*/
 
-.carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.green:hover, .carousel-inner .slider_content .text .qbutton:hover{
+.carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
+   color: #fff !important;
+   background: #0a0a0a !important;
+   border: #0a0a0a;
+   border-radius: 0;
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.green:hover, .carousel-inner .slider_content .text .qbutton.green:hover, .carousel-inner .slider_content .text .qbutton:hover{
    color: #fff !important;
    background: #0a0a0a !important;
    border: #0a0a0a;

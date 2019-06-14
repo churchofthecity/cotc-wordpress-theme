@@ -98,7 +98,7 @@ Template: bridge
 }*/
 
 .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green.default, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default {
-  color: rgba(255, 255, 255, 1);
+  color: #fff !important;
   background: rgba(255, 255, 255, 0) !important;
   border: rgba(255, 255, 255, 1);
   border-radius: 0;

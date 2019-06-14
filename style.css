@@ -97,7 +97,7 @@ Template: bridge
    border-radius: 0;
 }*/
 
-.carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green {
+.carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green.default, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default {
   color: rgba(255, 255, 255, 1);
   background: rgba(255, 255, 255, 0) !important;
   border: rgba(255, 255, 255, 1);

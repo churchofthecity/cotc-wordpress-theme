@@ -99,14 +99,14 @@ Template: bridge
 
 .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green.default, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default {
   color: #fff !important;
-  background: rgba(255, 255, 255, 0) !important;
-  border: rgba(255, 255, 255, 1) !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  border: 2px solid rgba(255, 255, 255, 1) !important;
   border-radius: 0;
 }
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default:hover {
-  color: #000 !important;
+  color: rgba(65, 72, 51, 1) !important;
   background: rgba(255, 255, 255, 0) !important;
-  border: rgba(65, 72, 51, 1) !important;
+  border: 2px solid rgba(255,255,255, 1) !important;
   border-radius: 0;
 }
 

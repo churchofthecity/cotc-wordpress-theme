@@ -90,12 +90,12 @@ Template: bridge
 
 /* Slider Button Styling*/
 
-   /*.carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
-   color: #0a0a0a !important;
-   border-color: #0a0a0a !important;
-   background-color: transparent;
-   border-radius: 0;
-}*/
+   .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
+   color: #fff !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  border: 2px solid rgba(255, 255, 255, 1) !important;
+  border-radius: 0;
+}
 
 .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green.default, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default {
   color: #fff !important;
@@ -111,10 +111,10 @@ Template: bridge
 }
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
-   color: #fff !important;
-   background: #0a0a0a !important;
-   border: #0a0a0a;
-   border-radius: 0;
+  color: rgba(65, 72, 51, 1) !important;
+  background: rgba(255, 255, 255, 1) !important;
+  border: 2px solid rgba(255,255,255, 1) !important;
+  border-radius: 0;
 }
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.green:hover, .carousel-inner .slider_content .text .qbutton.green:hover, .carousel-inner .slider_content .text .qbutton:hover{

@@ -93,27 +93,27 @@ Template: bridge
    .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
    color: #fff !important;
   background: rgba(0, 0, 0, 0.1) !important;
-  border: 2px solid rgba(255, 255, 255, 1) !important;
+  border: 1px solid rgba(255, 255, 255, 1) !important;
   border-radius: 0;
 }
 
 .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green.default, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default {
   color: #000 !important;
   background: rgba(255, 255, 255, 0.1) !important;
-  border: 2px solid #000 !important;
+  border: 1px solid #000 !important;
   border-radius: 0;
 }
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default:hover {
   color: #fff !important;
   background: #000 !important;
-  border: 2px solid #000 !important;
+  border: 1px solid #000 !important;
   border-radius: 0;
 }
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
   color: rgba(65, 72, 51, 1) !important;
   background: rgba(255, 255, 255, 1) !important;
-  border: 2px solid rgba(255,255,255, 1) !important;
+  border: 1px solid rgba(255,255,255, 1) !important;
   border-radius: 0;
 }
 

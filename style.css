@@ -125,6 +125,13 @@ Template: bridge
   border-radius: 0;
 }
 
+/*Qode V2 Simple Button w/White Border */
+.qode-btn .qode-btn-medium .qode-btn-simple .v2-white-border-simple{
+  border: 1px solid #fff;
+  padding: .75em 1.75em!important;
+  font-weight: bold;
+}
+
 .q_slider .qbutton {
    font-family: "Gotham SSm A", "Gotham SSm B";
    font-weight:400;

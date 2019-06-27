@@ -126,7 +126,7 @@ Template: bridge
 }
 
 /*Qode V2 Simple Button w/White Border */
-.v2-white-border-simple {
+.qode-btn.qode-btn-simple.v2-white-border-simple {
   color: #fff!important;
   background-color: rgba(0, 0, 0, 0)!important;
   border: 1px solid #fff!important;
@@ -134,7 +134,7 @@ Template: bridge
   font-weight: bold;
 }
 /*Qode V2 Simple Button w/White Border Hover State*/
-.v2-white-border-simple:hover {
+.qode-btn.qode-btn-simple.v2-white-border-simple:hover {
   color:#000!important;
   background-color: rgba(0, 0, 0, 1)!important;
   border: 1px solid #fff!important;

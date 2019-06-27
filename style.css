@@ -126,7 +126,7 @@ Template: bridge
 }
 
 /*Qode V2 Simple Button w/White Border */
-.qode-btn .qode-btn-medium .qode-btn-simple .v2-white-border-simple{
+.v2-white-border-simple{
   border: 1px solid #fff;
   padding: .75em 1.75em!important;
   font-weight: bold;

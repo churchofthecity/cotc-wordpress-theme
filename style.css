@@ -127,7 +127,7 @@ Template: bridge
 
 /*Qode V2 Simple Button w/White Border */
 .v2-white-border-simple{
-  border: 1px solid #fff;
+  border: 1px solid #fff!important;
   padding: .75em 1.75em!important;
   font-weight: bold;
 }

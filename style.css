@@ -90,18 +90,73 @@ Template: bridge
 
 /* Slider Button Styling*/
 
-/* .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
-   color: #0a0a0a !important;
-   border-color: #0a0a0a !important;
-   background-color: transparent;
-   border-radius: 2px;
-}*/
+.carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green.default, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default {
+  color: #000 !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid #000 !important;
+  border-radius: 0;
+}
+.carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default:hover {
+  color: #fff !important;
+  background: #000 !important;
+  border: 2px solid #000 !important;
+  border-radius: 0;
+}
+
+  .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
+   color: #000 !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid #000 !important;
+  border-radius: 0;
+}
+
+/*QButton White (white border, transparent button, This is NOT hover-state)
+ /* .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
+   color: #fff !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  border: 2px solid rgba(255, 255, 255, 1) !important;
+  border-radius: 0;
+} */
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
-   color: #fff !important;
-   background: #0a0a0a !important;
-   border: #0a0a0a;
-   border-radius: 0;
+  color: #fff !important;
+  background: #000 !important;
+  border: 2px solid #000 !important;
+  border-radius: 0;
+}
+
+/*Qode V2 Buttons Styling*/
+/*Solid White Button*/
+.qode-btn.qode-btn-solid.v2-solid-button {
+  padding: 0.75em 1.5em!important;
+  font-weight: bold!important;
+  border-radius: 0;
+  border: 1px solid #fff!important;
+}
+.qode-btn.qode-btn-solid.v2-solid-button:hover {
+  color: #fff!important;
+  padding: 0.75em 1.5em!important;
+  font-weight: bold!important;
+  background-color: rgba(254, 254, 254, 0.1)!important;
+  border-radius: 0;
+  border: 2px solid #fff!important;
+} 
+
+/*Qode V2 Simple Button w/White Border */
+.qode-btn.qode-btn-simple.v2-white-border-simple {
+  color: #fff!important;
+  background-color: rgba(0, 0, 0, 0)!important;
+  border: 2px solid #fff!important;
+  padding: .75em 1.75em!important;
+  font-weight: bold;
+}
+/*Qode V2 Simple Button w/White Border Hover State*/
+.qode-btn.qode-btn-simple.v2-white-border-simple:hover {
+  color:#000!important;
+  background-color: rgba(255, 255, 255, 1)!important;
+  border: 2px solid #fff!important;
+  padding: .75em 1.75em!important;
+  font-weight: bold;
 }
 
 .q_slider .qbutton {
@@ -279,7 +334,7 @@ body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],bo
 .cotc-campus.inverted {
   color: black;
   background: white;
-  border: 1px solid #aaa
+  border: 2px solid #aaa
 }
 
 .tribe-events-calendar .tribe_events {

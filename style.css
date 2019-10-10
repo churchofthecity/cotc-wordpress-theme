@@ -6,7 +6,6 @@ Author: Jason York
 Version: 1.0.0
 Template: bridge
 */
-/* @import url("../bridge/style.css"); */
 
 /* Events */
 
@@ -109,14 +108,6 @@ Template: bridge
   border: 2px solid #000 !important;
   border-radius: 0;
 }
-
-/*QButton White (white border, transparent button, This is NOT hover-state)
- /* .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
-   color: #fff !important;
-  background: rgba(0, 0, 0, 0.1) !important;
-  border: 2px solid rgba(255, 255, 255, 1) !important;
-  border-radius: 0;
-} */
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
   color: #fff !important;

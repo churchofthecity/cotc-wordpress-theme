@@ -451,3 +451,17 @@ body .gform_wrapper textarea {
 .blog_single article .post_info{
     display: none;
 }
+
+/* Contact Form 7 Styles */
+.wpcf7 {
+	background-color: #DBDBDB;
+	border: 5px solid #666;
+}
+
+.wpcf7-form {
+	margin: 1em 2em;
+}
+span.wpcf7-list-item { 
+	display: flex;
+	justify-content: flex-start;
+}

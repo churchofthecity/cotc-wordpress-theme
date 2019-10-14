@@ -465,3 +465,17 @@ span.wpcf7-list-item {
 	display: flex;
 	justify-content: flex-start;
 }
+
+/*Style 21Days Daily Email Subscribe Button*/
+input#mc-embedded-subscribe.button {
+	background-color: #0a0a0a;
+	color:#fff;
+	font-weight: 700;
+	border-radius: 0;
+}
+input#mc-embedded-subscribe.button:hover {
+	background-color: #fff;
+	color: #0a0a0a;
+	border: 1px solid #0a0a0a;
+	font-weight: 700;
+}

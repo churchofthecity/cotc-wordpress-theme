@@ -452,6 +452,8 @@ body .gform_wrapper textarea {
     display: none;
 }
 
+/* Following Styles migrated from within WP - Additional CSS */
+
 /* Contact Form 7 Styles */
 .wpcf7 {
 	background-color: #DBDBDB;
@@ -478,4 +480,15 @@ input#mc-embedded-subscribe.button:hover {
 	color: #0a0a0a;
 	border: 1px solid #0a0a0a;
 	font-weight: 700;
+}
+
+/* Center Reading Button */
+.three_columns {
+	display: flex;
+}
+
+/*Add border to Stakeholder Password Box */
+input#pwbox-18006 {
+  border: 2px solid #e2e2e2;
+  width: 50%;
 }

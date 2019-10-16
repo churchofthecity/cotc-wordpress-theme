@@ -488,6 +488,6 @@ input#mc-embedded-subscribe.button:hover {
 }
 /*Add border to Stakeholder Password Box */
 .post-password-form input {
-  border: 2px solid #e2e2e2;
-  width: 50%;
+  border: 2px solid #e2e2e2!important;
+  width: 50%!important;
 }

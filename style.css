@@ -499,6 +499,31 @@ a.qbutton.small:hover {
 	justify-content: center;
 }
 
+/*Pastoral Care Family Intake Submit Button*/
+input#gform_submit_button_35 {
+	background-color: #0a0a0a;
+	border-radius: 0;
+	color: #fff;
+	border: 2px solid #0a0a0a;
+}
+input#gform_submit_button_35:hover {
+	background-color: #fff;
+	border-radius: 0;
+	color: #0a0a0a;
+	border: 2px solid #0a0a0a;
+}
+
+/*Gravity Form Malawi Sign-up Submit Button*/
+input#gform_submit_button_59 {
+	background-color: rgb(49, 49, 49);
+	border-radius: 0;
+	color: rgb(255, 255, 255);
+}
+	input#gform_submit_button_59:hover {
+		background-color: rgb(255, 255, 255);
+		color: rgb(49, 49, 49);
+	}
+
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 
 /* Center Reading Button */

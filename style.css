@@ -524,6 +524,16 @@ input#gform_submit_button_59 {
 		color: rgb(49, 49, 49);
   }
   
+/*Gravity Form Join a Team App Button*/
+input#gform_submit_button_13 {
+	background-color: rgb(49, 49, 49);
+	border-radius: 0;
+	color: rgb(255, 255, 255);
+}
+input#gform_submit_button_13:hover {
+	background-color: rgb(255, 255, 255);
+		color: rgb(49, 49, 49);
+}
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 

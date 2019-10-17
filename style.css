@@ -571,6 +571,17 @@ input#gform_submit_button_15:hover {
 	color: rgb(255, 255, 255);
 }
 
+/*Gravity Form Button Talk with Pastor App*/
+input#gform_submit_button_31 {
+	background-color: rgb(255, 255, 255);
+	border-radius: 0;
+	color: rgb(49, 49, 49);
+}
+input#gform_submit_button_31:hover {
+	background-color: rgb(49, 49, 49);
+	border-radius: 0;
+	color: rgb(255, 255, 255);
+}
 
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 

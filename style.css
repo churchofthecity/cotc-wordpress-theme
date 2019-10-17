@@ -535,6 +535,18 @@ input#gform_submit_button_13:hover {
 		color: rgb(49, 49, 49);
 }
 
+/*Stories Submission Button*/
+input#gform_submit_button_44 {
+	background-color: #0a0a0a;
+	border-radius: 0;
+	color: #fff;
+}
+input#gform_submit_button_44:hover {
+	background-color: #fff;
+	border-radius: 0;
+	color: #0a0a0a;
+}
+
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 
 /* Center Reading Button */

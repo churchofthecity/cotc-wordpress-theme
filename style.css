@@ -789,6 +789,20 @@ input#gform_submit_button_71:hover{
 	border: 2px solid #0a0a0a;
 }
 
+/*Prayer Request Submit Button Style*/
+input#gform_submit_button_27 {
+	background-color: #0a0a0a;
+	border-radius: 0;
+	color: #fff;
+	border: 2px solid #0a0a0a;
+}
+input#gform_submit_button_27:hover{
+	background-color: #fff;
+	border-radius: 0;
+	color: #0a0a0a;
+	border: 2px solid #0a0a0a;
+}
+
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 
 /* Center Reading Button */

@@ -597,6 +597,18 @@ input#gform_submit_button_22:hover {
 	border: 2px solid #0a0a0a;
 }
 
+/*Gravity Form Button Community*/
+input#gform_submit_button_8 {
+	background-color: rgb(255, 255, 255);
+	border-radius: 0;
+	color: rgb(49, 49, 49);
+}
+input#gform_submit_button_8:hover {
+	background-color: rgb(49, 49, 49);
+	border-radius: 0;
+	color: rgb(255, 255, 255);
+}
+
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 

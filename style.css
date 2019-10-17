@@ -1382,6 +1382,16 @@ input#gform_submit_button_93:hover {
     display: none;
 }
 
+/*Style radial border of Inter-page Nav button*/
+.qode-inter-page-navigation-back-link-inner {
+    background-color: #000 !important;
+}
+
+/*Style inter-page Nav Arrows*/
+.qode-ipn-icon {
+    color: #000 !important;
+}
+
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 
 /* Center Reading Button */

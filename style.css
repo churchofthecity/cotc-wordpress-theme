@@ -10,37 +10,42 @@ Template: bridge
 /* Events */
 
 .ecs-event-list .ecs-event {
-  list-style: none;
-  margin-bottom: 1.5em;
-  min-height: 95px;
+    list-style: none;
+    margin-bottom: 1.5em;
+    min-height: 95px;
 }
 
 .ecs-event-list li.ecs-event p {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
+
 .ecs-event-list .ecs-event .entry-title {
-  text-transform: uppercase;
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .ecs-event-list .ecs-event img {
-  width: 95px;
-  float: left;
-  padding-right: 5px;
+    width: 95px;
+    float: left;
+    padding-right: 5px;
 }
 
 .ecs-event-list .duration {
-  display: block;
-  margin-top: -5px;
+    display: block;
+    margin-top: -5px;
 }
 
 .ecs-event-list .ecs-excerpt {
     line-height: 1.3em;
     margin-top: 0.8em;
 }
-.ecs-event-list .summary, .ecs-event-list .ecs-excerpt, .ecs-event-list .read-more, .ecs-event-list .duration {
+
+.ecs-event-list .summary,
+.ecs-event-list .ecs-excerpt,
+.ecs-event-list .read-more,
+.ecs-event-list .duration {
     padding: 0 0 0 116px;
 }
 
@@ -54,288 +59,310 @@ Template: bridge
 /* Secondary Call to Action */
 
 .secondaryCTA {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: space-around;
-  padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 1em;
 }
 
 .secondaryCTA .ctaItem {
-  margin: 3em;
+    margin: 3em;
 }
 
 .secondaryCTA .ctaButton:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ffffff;
 
 }
+
 .secondaryCTA .ctaButton {
-  color: rgb(49, 49, 49);
-  border-color: rgb(49, 49, 49);
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0);
+    color: rgb(49, 49, 49);
+    border-color: rgb(49, 49, 49);
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Center the main content vertically */
 @media only screen and (min-width: 801px) {
-  .slider_content.center {
-    transform: translate(0px, -50%);
-  }
+    .slider_content.center {
+        transform: translate(0px, -50%);
+    }
 }
 
 /* Slider Button Styling*/
 
-.carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.green.default, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default {
-  color: #000 !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 2px solid #000 !important;
-  border-radius: 0;
-}
-.carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.green.default:hover {
-  color: #fff !important;
-  background: #000 !important;
-  border: 2px solid #000 !important;
-  border-radius: 0;
+.carousel-inner .item.dark .slider_content .text .qbutton,
+.carousel-inner .item.dark .slider_content .text .qbutton.green.default,
+.carousel-inner .slider_content .text .qbutton,
+.carousel-inner .slider_content .text .qbutton.green.default {
+    color: #000 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid #000 !important;
+    border-radius: 0;
 }
 
-  .carousel-inner .item.dark .slider_content .text .qbutton, .carousel-inner .item.dark .slider_content .text .qbutton.white, .carousel-inner .slider_content .text .qbutton, .carousel-inner .slider_content .text .qbutton.white{
-   color: #000 !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border: 2px solid #000 !important;
-  border-radius: 0;
+.carousel-inner .item.dark .slider_content .text .qbutton:hover,
+.carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover,
+.carousel-inner .slider_content .text .qbutton,
+.carousel-inner .slider_content .text .qbutton.green.default:hover {
+    color: #fff !important;
+    background: #000 !important;
+    border: 2px solid #000 !important;
+    border-radius: 0;
 }
 
-.carousel-inner .item.dark .slider_content .text .qbutton:hover, .carousel-inner .item.dark .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton.white:hover, .carousel-inner .slider_content .text .qbutton:hover{
-  color: #fff !important;
-  background: #000 !important;
-  border: 2px solid #000 !important;
-  border-radius: 0;
+.carousel-inner .item.dark .slider_content .text .qbutton,
+.carousel-inner .item.dark .slider_content .text .qbutton.white,
+.carousel-inner .slider_content .text .qbutton,
+.carousel-inner .slider_content .text .qbutton.white {
+    color: #000 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid #000 !important;
+    border-radius: 0;
+}
+
+.carousel-inner .item.dark .slider_content .text .qbutton:hover,
+.carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
+.carousel-inner .slider_content .text .qbutton.white:hover,
+.carousel-inner .slider_content .text .qbutton:hover {
+    color: #fff !important;
+    background: #000 !important;
+    border: 2px solid #000 !important;
+    border-radius: 0;
 }
 
 /*Qode V2 Buttons Styling*/
 /*Solid White Button*/
 .qode-btn.qode-btn-solid.v2-solid-button {
-  padding: 0.75em 1.5em!important;
-  font-weight: bold!important;
-  border-radius: 0;
-  border: 1px solid #fff!important;
+    padding: 0.75em 1.5em !important;
+    font-weight: bold !important;
+    border-radius: 0;
+    border: 1px solid #fff !important;
 }
+
 .qode-btn.qode-btn-solid.v2-solid-button:hover {
-  color: #fff!important;
-  padding: 0.75em 1.5em!important;
-  font-weight: bold!important;
-  background-color: rgba(254, 254, 254, 0.1)!important;
-  border-radius: 0;
-  border: 2px solid #fff!important;
-} 
+    color: #fff !important;
+    padding: 0.75em 1.5em !important;
+    font-weight: bold !important;
+    background-color: rgba(254, 254, 254, 0.1) !important;
+    border-radius: 0;
+    border: 2px solid #fff !important;
+}
 
 /*Qode V2 Simple Button w/White Border */
 .qode-btn.qode-btn-simple.v2-white-border-simple {
-  color: #fff!important;
-  background-color: rgba(0, 0, 0, 0)!important;
-  border: 2px solid #fff!important;
-  padding: .75em 1.75em!important;
-  font-weight: bold;
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 2px solid #fff !important;
+    padding: .75em 1.75em !important;
+    font-weight: bold;
 }
+
 /*Qode V2 Simple Button w/White Border Hover State*/
 .qode-btn.qode-btn-simple.v2-white-border-simple:hover {
-  color:#000!important;
-  background-color: rgba(255, 255, 255, 1)!important;
-  border: 2px solid #fff!important;
-  padding: .75em 1.75em!important;
-  font-weight: bold;
+    color: #000 !important;
+    background-color: rgba(255, 255, 255, 1) !important;
+    border: 2px solid #fff !important;
+    padding: .75em 1.75em !important;
+    font-weight: bold;
 }
 
 .q_slider .qbutton {
-   font-family: "Gotham SSm A", "Gotham SSm B";
-   font-weight:400;
-   font-size:14px;
-   font-style:bold;
-   text-transform:none;
-   text-align:center;
-   height:55px;
-   width:200px;
-   line-height:55px;
-   padding-left:5px;
-   padding-right:5px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-weight: 400;
+    font-size: 14px;
+    font-style: bold;
+    text-transform: none;
+    text-align: center;
+    height: 55px;
+    width: 200px;
+    line-height: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 @media (max-width: 1024px) {
-  .carousel-inner .slider_content .text .qbutton {
-    max-width: 100%;
-  }
-  .carousel-inner .slider_content .text .qbutton.white {
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-  }
+    .carousel-inner .slider_content .text .qbutton {
+        max-width: 100%;
+    }
+
+    .carousel-inner .slider_content .text .qbutton.white {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
 }
 
 #qode-home-slider-3 {
-  background-color: #262626;
+    background-color: #262626;
 }
 
 /* Hide Blog Info*/
 
-.single-post  span.post_author{
-  display: none;
+.single-post span.post_author {
+    display: none;
 }
 
-.blog_single article .post_info{
-   display: none;
+.blog_single article .post_info {
+    display: none;
 }
 
-.blog_holder article .post_info{
-  display: none;
+.blog_holder article .post_info {
+    display: none;
 }
 
-.hide-field{
-  display: none;
+.hide-field {
+    display: none;
 }
 
 blockquote {
-text-align: center;
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: italic;
-font-weight: 400;
+    text-align: center;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: italic;
+    font-weight: 400;
 }
 
 /* App Mobile Template */
 .container_inner_app {
-  margin: 0;
+    margin: 0;
 }
 
 /*Gotham Font*/
 
 p {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 300;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
 }
 
 h1 {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 700;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
 }
 
 h2 {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 700;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
 }
 
 h3 {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 700;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
 }
 
 h4 {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 300;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
 }
 
 header {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 300;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
 }
 
 footer {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 300;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
 }
 
 subtitle {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 700;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
 }
 
 h4.q_slide_subtitle {
-font-family: "Gotham SSm A", "Gotham SSm B";
-font-style: normal;
-font-weight: 700;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
 }
 
 
 /* Disable the start image for Revolution slider on desktop only  */
 @media only screen and (min-width: 801px) {
-  .rev_slider .rs-fullvideo-cover, .rev_slider .defaultimg {
-    display: none !important;
-  }
+
+    .rev_slider .rs-fullvideo-cover,
+    .rev_slider .defaultimg {
+        display: none !important;
+    }
 
 }
 
 .rev_slider .tp-loader {
-  display: none !important;
+    display: none !important;
 }
 
 /* Gravity forms button not centering on mobile */
-body .gform_wrapper input[type=submit],body .gform_wrapper input[type=button],body .gform_wrapper input[type=reset] {
-  text-align: center;
+body .gform_wrapper input[type=submit],
+body .gform_wrapper input[type=button],
+body .gform_wrapper input[type=reset] {
+    text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
-  .rev_slider .rs-background-video-layer {
-   display: none;
-  }
+    .rev_slider .rs-background-video-layer {
+        display: none;
+    }
 }
 
 /* Event list date thumbnail for events that do not have a thumbnail image */
 .eventDateThumbnail {
-  width: 100px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.8em;
-  float: left;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+    float: left;
 }
 
 .eventDateThumbnail--month {
-  display: block;
-  padding: 0 0.2em;
+    display: block;
+    padding: 0 0.2em;
 }
 
 .eventDateThumbnail--day {
-  display: block;
-  font-size: 3em;
-  padding-top: 0.15em;
-  font-weight: 600;
+    display: block;
+    font-size: 3em;
+    padding-top: 0.15em;
+    font-weight: 600;
 }
 
 .cotc-campus {
-  font-family: "Gotham SSm A", "Gotham SSm B";
-  display: inline-block;
-  margin-right: 0.5em;
-  text-transform: uppercase;
-  background: black;
-  padding: 0 0.3em;
-  color: white;
-  font-weight: bold;
-  line-height: 1.7em;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    display: inline-block;
+    margin-right: 0.5em;
+    text-transform: uppercase;
+    background: black;
+    padding: 0 0.3em;
+    color: white;
+    font-weight: bold;
+    line-height: 1.7em;
 }
+
 .cotc-campus.inverted {
-  color: black;
-  background: white;
-  border: 2px solid #aaa
+    color: black;
+    background: white;
+    border: 2px solid #aaa
 }
 
 .tribe-events-calendar .tribe_events {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #tribe-events-content .tribe-events-calendar div[id*=tribe-events-event-] h3.tribe-events-month-event-title {
-  width: 100%;
+    width: 100%;
 }
 
 /* I don't know why, but gforms removes the border from all inputs, so
@@ -359,96 +386,106 @@ body .gform_wrapper li.gfield.gfield_error,
 body .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning,
 body .gform_wrapper select,
 body .gform_wrapper textarea {
-  border: 1px solid #0a0a0a !important;
+    border: 1px solid #0a0a0a !important;
 }
 
 .tribe-bar-cotc-campus-filter {
-  float: left;
-  margin-bottom: 0;
-  padding: 15px;
+    float: left;
+    margin-bottom: 0;
+    padding: 15px;
 }
 
 #tribe-bar-form.tribe-bar-collapse .tribe-bar-cotc-campus-filter {
-  padding-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .tribe-bar-mini .tribe-bar-search-filter {
-  width: 35%;
+    width: 35%;
 }
+
 .tribe-bar-search-filter {
-  width: 45%;
+    width: 45%;
 }
+
 .tribe-bar-submit {
-  margin-left: 0;
+    margin-left: 0;
 }
+
 .tribe-bar-cotc-campus-filter .cotc-legend {
-  line-height: 1em;
-  position: absolute;
-  top: 7.3em;
-  font-size: 0.8em;
+    line-height: 1em;
+    position: absolute;
+    top: 7.3em;
+    font-size: 0.8em;
 }
+
 .tribe-bar-cotc-campus-filter .cotc-legend span::after {
-  content: " | ";
+    content: " | ";
 }
+
 .tribe-bar-cotc-campus-filter .cotc-legend span:last-child::after {
-  content: "";
+    content: "";
 }
 
 #tribe-bar-form.tribe-bar-mini .cotc-legend {
-  top: 6.3em;
+    top: 6.3em;
 }
+
 #tribe-bar-form.tribe-bar-collapse .cotc-legend {
-  top: 5.5em;
+    top: 5.5em;
 }
+
 /* Calendar day of week bar */
 .tribe-events-calendar thead th {
-  background-color: black;
-  color: white;
-  border: none;
+    background-color: black;
+    color: white;
+    border: none;
 }
 
 /* Export events button on the bottom of the calendar */
 .tribe-events-ical.tribe-events-button {
-  display: none !important;
+    display: none !important;
 }
+
 /* Calendar date filter */
 .tribe-bar-date-filter {
-  display: none;
+    display: none;
 }
 
 /* View as... link on calendar */
-.tribe-bar-views-inner, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
-  background: black;
-  color: white;
+.tribe-bar-views-inner,
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a {
+    background: black;
+    color: white;
 }
+
 #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option.tribe-bar-active a:hover {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
 }
 
 /* Individual Event Page */
 
 /* Remove thumbnail for related events */
 .tribe-related-events .tribe-related-events-thumbnail {
-  display: none;
+    display: none;
 }
 
 /* Back to top icon - give it an outline so it can be seen on white backgrounds */
 #back_to_top i.fa-chevron-up {
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 /* Password Protected Forms */
 .post-password-form {
-  border: 2px !important;
-  border-color: #0a0a0a !important;
+    border: 2px !important;
+    border-color: #0a0a0a !important;
 }
 
 
 /* Blog Styling */
-.blog_single article .post_info{
+.blog_single article .post_info {
     display: none;
 }
 
@@ -456,361 +493,425 @@ body .gform_wrapper textarea {
 
 /* Contact Form 7 Styles */
 .wpcf7 {
-	background-color: #DBDBDB;
-	border: 5px solid #666;
+    background-color: #DBDBDB;
+    border: 5px solid #666;
 }
 
 .wpcf7-form {
-	margin: 1em 2em;
+    margin: 1em 2em;
 }
-span.wpcf7-list-item { 
-	display: flex;
-	justify-content: flex-start;
+
+span.wpcf7-list-item {
+    display: flex;
+    justify-content: flex-start;
 }
 
 /*Style 21Days Daily Email Subscribe Button*/
 input#mc-embedded-subscribe.button {
-	background-color: #0a0a0a;
-	color:#fff;
-	font-weight: 700;
-	border-radius: 0;
+    background-color: #0a0a0a;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0;
 }
+
 input#mc-embedded-subscribe.button:hover {
-	background-color: #fff;
-	color: #0a0a0a;
-	border: 1px solid #0a0a0a;
-	font-weight: 700;
+    background-color: #fff;
+    color: #0a0a0a;
+    border: 1px solid #0a0a0a;
+    font-weight: 700;
 }
 
 /*Style Small Primary Button Color*/
 a.qbutton.small {
-	color: #fff;
-	background: #0a0a0a;
+    color: #fff;
+    background: #0a0a0a;
 }
+
 a.qbutton.small:hover {
-	color: #0a0a0a;
-	background: #fff;
-	border: 1px solid #0a0a0a;
+    color: #0a0a0a;
+    background: #fff;
+    border: 1px solid #0a0a0a;
 }
 
 /*Center Buttons COTC Franklin Men*/
 .men_button--container {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*Pastoral Care Family Intake Submit Button*/
 input#gform_submit_button_35 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
+
 input#gform_submit_button_35:hover {
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Gravity Form Malawi Sign-up Submit Button*/
 input#gform_submit_button_59 {
-	background-color: rgb(49, 49, 49);
-	border-radius: 0;
-	color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
 }
-	input#gform_submit_button_59:hover {
-		background-color: rgb(255, 255, 255);
-		color: rgb(49, 49, 49);
-  }
-  
+
+input#gform_submit_button_59:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(49, 49, 49);
+}
+
 /*Gravity Form Join a Team App Button*/
 input#gform_submit_button_13 {
-	background-color: rgb(49, 49, 49);
-	border-radius: 0;
-	color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
 }
+
 input#gform_submit_button_13:hover {
-	background-color: rgb(255, 255, 255);
-		color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    color: rgb(49, 49, 49);
 }
 
 /*Stories Submission Button*/
 input#gform_submit_button_44 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
 }
+
 input#gform_submit_button_44:hover {
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
 }
 
 /*Gravity Form Wedding Application*/
 input#gform_submit_button_45 {
-	background-color: rgb(255, 255, 255);
-	border-radius: 0;
-	color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    color: rgb(49, 49, 49);
 }
+
 input#gform_submit_button_45:hover {
-	background-color: rgb(49, 49, 49);
-	border-radius: 0;
-	color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
 }
 
 /*Gravity Form Button Baptism Application*/
 input#gform_submit_button_15 {
-	background-color: rgb(255, 255, 255);
-	border-radius: 0;
-	color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    color: rgb(49, 49, 49);
 }
+
 input#gform_submit_button_15:hover {
-	background-color: rgb(49, 49, 49);
-	border-radius: 0;
-	color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
 }
 
 /*Gravity Form Button Talk with Pastor App*/
 input#gform_submit_button_31 {
-	background-color: rgb(255, 255, 255);
-	border-radius: 0;
-	color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    color: rgb(49, 49, 49);
 }
+
 input#gform_submit_button_31:hover {
-	background-color: rgb(49, 49, 49);
-	border-radius: 0;
-	color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
 }
 
 /*Gravity Form Button Young Adult Submission*/
 input#gform_submit_button_22 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
+
 input#gform_submit_button_22:hover {
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Gravity Form Button Community*/
 input#gform_submit_button_8 {
-	background-color: rgb(255, 255, 255);
-	border-radius: 0;
-	color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    color: rgb(49, 49, 49);
 }
+
 input#gform_submit_button_8:hover {
-	background-color: rgb(49, 49, 49);
-	border-radius: 0;
-	color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
 }
 
 /*Gravity Form Button Join a Team*/
 input#gform_submit_button_1 {
-	background-color: rgb(255, 255, 255);
-	border-radius: 0;
-	color: rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    color: rgb(49, 49, 49);
 }
+
 input#gform_submit_button_1:hover {
-	background-color: rgb(49, 49, 49);
-	border-radius: 0;
-	color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
 }
 
 /*Sylvan Park JoinTeam Register Button*/
 input#gform_submit_button_61 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
+
 input#gform_submit_button_61:hover {
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Style Submit Button sylvanpark/community*/
 input#gform_submit_button_62 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
+
 input#gform_submit_button_62:hover {
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Franklin Join a Team Interest Forms modal button style*/
 /*Guest Services*/
 input#gform_submit_button_63 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_63:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_63:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Pastoral Care*/
 input#gform_submit_button_64 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_64:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_64:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*KidCity Modal Button*/
 input#gform_submit_button_65 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_65:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_65:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Women's Ministry Modal Button*/
 input#gform_submit_button_66 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_66:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_66:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Production Team Modal Button*/
 input#gform_submit_button_67 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_67:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_67:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Production Team Modal Button*/
 input#gform_submit_button_67 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_67:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_67:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*City Students Modal Button*/
 input#gform_submit_button_69 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_69:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_69:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Antioch Join a Team Submit Button*/
 input#gform_submit_button_72 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_72:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_72:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
+
 /*Join a Team button Spring Hill*/
 input#gform_submit_button_70 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_70:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_70:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*East Nashville Join a Team button */
 input#gform_submit_button_71 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
-input#gform_submit_button_71:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+
+input#gform_submit_button_71:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Prayer Request Submit Button Style*/
 input#gform_submit_button_27 {
-	background-color: #0a0a0a;
-	border-radius: 0;
-	color: #fff;
-	border: 2px solid #0a0a0a;
-}
-input#gform_submit_button_27:hover{
-	background-color: #fff;
-	border-radius: 0;
-	color: #0a0a0a;
-	border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
 }
 
-/******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
+input#gform_submit_button_27:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+/*Job Application Popup align column*/
+.ginput_container.ginput_container_fileupload {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Job Application Popup Remove Borders around File Upload Inputs*/
+input#input_73_4.medium {
+    border: none !important;
+}
+
+input#input_73_5.medium {
+    border: none !important;
+}
+
+input#input_73_7.medium {
+    border: none !important;
+}
+
+/*Job Application Submit Button style*/
+input#gform_submit_button_73 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+input#gform_submit_button_73:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+
+
+/******* End of Style Migration from Backend of WP "Additional CSS" **********/
 
 /* Center Reading Button */
 .three_columns {
-	display: flex;
+    display: flex;
 }
+
 /*Add border to Stakeholder Password Box */
 input#pwbox-18006 {
-  border: 2px solid #e2e2e2!important;
-  width: 50%!important;
+    border: 2px solid #e2e2e2 !important;
+    width: 50% !important;
 }

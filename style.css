@@ -495,8 +495,7 @@ input#pwbox-18006 {
 /*Get Involved Container, Opportunities, and location styles*/
 .get-involved {
   border: 2px solid #000;
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
 }
 .get-involved_opportunities {
   padding: 1.1em;
@@ -504,5 +503,4 @@ input#pwbox-18006 {
 .get-involved_location {
   background-color: #e2e2e2;
   padding: 1.3em;
-  width: auto;
 }

@@ -1377,6 +1377,10 @@ input#gform_submit_button_93:hover {
     border-radius: 0;
 }
 
+/*Hide Event is Recurring in Calendar FR Young Adults*/
+.event-is-recurring {
+    display: none;
+}
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 

@@ -955,6 +955,22 @@ input#gform_submit_button_75:hover {
     border-radius: 0;
     color: #0a0a0a;
     border: 2px solid #0a0a0a;
+
+}
+
+/*Style Submit Button CityFriends_Modal*/
+input#gform_submit_button_77 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+input#gform_submit_button_77:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 

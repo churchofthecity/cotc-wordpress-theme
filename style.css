@@ -493,7 +493,7 @@ input#pwbox-18006 {
 }
 
 /*Get Involved Container, Opportunities, and location styles*/
-.get-involved {
+.get-involved.grid_section {
   border: 2px solid #000;
 }
 .get-involved_opportunities {

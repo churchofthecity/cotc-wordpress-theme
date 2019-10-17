@@ -748,6 +748,20 @@ input#gform_submit_button_69:hover{
 	border: 2px solid #0a0a0a;
 }
 
+/*Antioch Join a Team Submit Button*/
+input#gform_submit_button_72 {
+	background-color: #0a0a0a;
+	border-radius: 0;
+	color: #fff;
+	border: 2px solid #0a0a0a;
+}
+input#gform_submit_button_72:hover{
+	background-color: #fff;
+	border-radius: 0;
+	color: #0a0a0a;
+	border: 2px solid #0a0a0a;
+}
+
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 
 /* Center Reading Button */

@@ -867,13 +867,13 @@ input#gform_submit_button_27:hover {
     border: 2px solid #0a0a0a;
 }
 
-/*Job Application Popup align column*/
+/*Job Application Modal align column*/
 .ginput_container.ginput_container_fileupload {
     display: flex;
     flex-direction: column;
 }
 
-/*Job Application Popup Remove Borders around File Upload Inputs*/
+/*Job Application Modal Remove Borders around File Upload Inputs*/
 input#input_73_4.medium {
     border: none !important;
 }

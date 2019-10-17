@@ -482,6 +482,20 @@ input#mc-embedded-subscribe.button:hover {
 	font-weight: 700;
 }
 
+/*Style Small Primary Button Color*/
+a.qbutton.small {
+	color: #fff;
+	background: #0a0a0a;
+}
+a.qbutton.small:hover {
+	color: #0a0a0a;
+	background: #fff;
+	border: 1px solid #0a0a0a;
+}
+
+
+/******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
+
 /* Center Reading Button */
 .three_columns {
 	display: flex;

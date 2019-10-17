@@ -1219,6 +1219,36 @@ input#gform_submit_button_19:hover {
     border-radius: 0;
 }
 
+/*Cars Submit Button from joinateam page */
+input#gform_submit_button_82 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_82:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_83 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_83:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 

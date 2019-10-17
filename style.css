@@ -912,6 +912,50 @@ input#gform_submit_button_73:hover {
     margin: 0;
 }
 
+/*Style Submit Button FR-GF_Community*/
+input#gform_submit_button_76 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+input#gform_submit_button_76:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+/*Style Submit Button EN-GF_Community*/
+input#gform_submit_button_74 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+input#gform_submit_button_74:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+/*Style Submit Button SH-GF_Community*/
+input#gform_submit_button_75 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+input#gform_submit_button_75:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
 
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/

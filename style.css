@@ -1248,6 +1248,134 @@ input#gform_submit_button_83:hover {
     border-radius: 0;
 }
 
+/*Style SH Join a Team Submit Buttons – 10/4/19 CKM*/
+
+input#gform_submit_button_85 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_85:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_86 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_86:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_87 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_87:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_88 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_88:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_89 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_89:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_90 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_90:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+
+input#gform_submit_button_91 {
+    border: 2px solid #bb2929;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_91:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_92 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_92:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
+input#gform_submit_button_93 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_submit_button_93:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
 
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/

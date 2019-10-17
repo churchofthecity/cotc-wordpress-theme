@@ -493,6 +493,11 @@ a.qbutton.small:hover {
 	border: 1px solid #0a0a0a;
 }
 
+/*Center Buttons COTC Franklin Men*/
+.men_button--container {
+	display: flex;
+	justify-content: center;
+}
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 

@@ -901,6 +901,17 @@ input#gform_submit_button_73:hover {
     border: 2px solid #0a0a0a;
 }
 
+/*Style Dropdown Neighborhoods Menu*/
+#input_44_5 {
+    height: 2.25em;
+    background-color: #fff;
+    color: #0a0a0a;
+    font-size: inherit;
+    background: #fff !important;
+    -webkit-background-color: #fff !important;
+    margin: 0;
+}
+
 
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/

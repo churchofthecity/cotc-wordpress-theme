@@ -1021,6 +1021,204 @@ input#gform_submit_button_19:hover {
 /*	border: 5px solid #ffffff;
 }*/
 
+/*Style Next Button on Team Member Volunteer Application*/
+#gform_next_button_13_44 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_44:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_45 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_45:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_45 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_45:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_49 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_49:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_49 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_49:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_50 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_50:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_50 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a
+}
+
+#gform_next_button_13_50:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_51 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_51:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_51 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_51:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_52 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_previous_button_13_52:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_51 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_51:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_52 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+#gform_next_button_13_52:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+/*GF Submit Button - Cars*/
+#gform_submit_button_23 {
+    border: 2px solid #0a0a0a;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+#gform_submit_button_23:hover {
+    border: 2px solid #0a0a0a;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 

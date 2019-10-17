@@ -499,6 +499,20 @@ a.qbutton.small:hover {
 	justify-content: center;
 }
 
+/*Pastoral Care Family Intake Submit Button*/
+input#gform_submit_button_35 {
+	background-color: #0a0a0a;
+	border-radius: 0;
+	color: #fff;
+	border: 2px solid #0a0a0a;
+}
+input#gform_submit_button_35:hover {
+	background-color: #fff;
+	border-radius: 0;
+	color: #0a0a0a;
+	border: 2px solid #0a0a0a;
+}
+
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/ 
 
 /* Center Reading Button */

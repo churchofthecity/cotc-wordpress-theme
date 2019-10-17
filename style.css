@@ -1003,6 +1003,24 @@ input#gform_submit_button_19:hover {
     border: 2px solid #0a0a0a;
 }
 
+/**** HERO IMAGE SOLUTION TO DISPLAY NAME OF PAGE ON TOP OF HERO IMAGE ******/
+/*Title Text Font Size & Spacing*/
+.title_subtitle_holder .title_subtitle_holder_inner {
+    display: flex;
+    justify-content: center;
+}
+
+.title_subtitle_holder .title_subtitle_holder_inner h1 {
+    letter-spacing: .3em;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Add Border to Title*/
+/*	border: 5px solid #ffffff;
+}*/
+
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 

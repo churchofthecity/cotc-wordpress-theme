@@ -1392,6 +1392,30 @@ input#gform_submit_button_93:hover {
     color: #000 !important;
 }
 
+/******************** MEDIA QUERIES ***************/
+/*H1 Media Query to contain text for tablets – CKM 9.28.19*/
+@media only screen and (max-width: 1024px) {
+    .title h1 {
+        font-size: 30px !important;
+    }
+
+    .qbutton:hover {
+        color: #000 !important;
+    }
+}
+
+/*H1 Media Query to contain text for mobile – CKM 9.3.19*/
+@media only screen and (max-width: 600px) {
+    .title h1 {
+        font-size: 15px !important;
+    }
+
+    .qbutton:hover {
+        color: #000 !important;
+    }
+}
+
+
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 
 /* Center Reading Button */

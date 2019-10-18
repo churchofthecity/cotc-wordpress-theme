@@ -1415,6 +1415,26 @@ input#gform_submit_button_93:hover {
     }
 }
 
+/*Qode Accordion Background Style for Hover – CKM*/
+.qode-title-holder:hover {
+    background-color: #000 !important;
+    transition: 0.3s;
+}
+
+/*Qode Tab Style – CKM */
+li.ui-state-default.ui-corner-top {
+    background: #000;
+}
+
+li.ui-state-default.ui-corner-top:hover {
+    color: #000;
+    background-color: #d5d5d5;
+}
+
+li.ui-tabs-active.ui-state-active {
+    background: #fff;
+    color: #000;
+}
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 

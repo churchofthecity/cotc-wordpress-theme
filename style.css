@@ -1422,6 +1422,13 @@ input#gform_submit_button_93:hover {
     }
 }
 
+
+@media (max-width: 768px) {
+    .qode-advanced-tabs.qode-advanced-horizontal-tab.qode-advanced-tabs-nav li.ui-state-active {
+        background-color: #fff;
+    }
+}
+
 /*Qode Accordion Background Style for Hover – CKM*/
 .qode-title-holder:hover {
     background-color: #000 !important;

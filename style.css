@@ -1418,55 +1418,55 @@ input#gform_submit_button_93:hover {
 /**** Media Query to style Qode Advanced Tabs at Breakpoint *****/
 @media (max-width: 1024px) {
     .qode-advanced-tabs.qode-advanced-horizontal-tab.qode-advanced-tabs-nav li.ui-state-active {
-    background-color: #fff;
+        background-color: #fff;
     }
 }
 
-    /*Qode Accordion Background Style for Hover – CKM*/
-    .qode-title-holder:hover {
-        background-color: #000 !important;
-        transition: 0.3s;
-    }
+/*Qode Accordion Background Style for Hover – CKM*/
+.qode-title-holder:hover {
+    background-color: #000 !important;
+    transition: 0.3s;
+}
 
-    /*Qode Tab Style – CKM */
-    li.ui-state-default.ui-corner-top {
-        background: #000;
-    }
+/*Qode Tab Style – CKM */
+li.ui-state-default.ui-corner-top {
+    background: #000;
+}
 
-    li.ui-state-default.ui-corner-top:hover {
-        color: #000;
-        background-color: #d5d5d5;
-    }
+li.ui-state-default.ui-corner-top:hover {
+    color: #000;
+    background-color: #d5d5d5;
+}
 
-    li.ui-tabs-active.ui-state-active {
-        background: #fff;
-        color: #000;
-    }
+li.ui-tabs-active.ui-state-active {
+    background: #fff;
+    color: #000;
+}
 
-    /******* End of Style Migration from Backend of WP "Additional CSS" **********/
+/******* End of Style Migration from Backend of WP "Additional CSS" **********/
 
-    /* Center Reading Button */
-    .three_columns {
-        display: flex;
-    }
+/* Center Reading Button */
+.three_columns {
+    display: flex;
+}
 
-    /*Add border to Stakeholder Password Box */
-    input#pwbox-18006 {
-        border: 2px solid #e2e2e2 !important;
-        width: 50% !important;
-    }
+/*Add border to Stakeholder Password Box */
+input#pwbox-18006 {
+    border: 2px solid #e2e2e2 !important;
+    width: 50% !important;
+}
 
-    /*Get Involved Container, Opportunities, and location styles*/
-    .get-involved {
-        border: 2px solid #000;
-        overflow: hidden;
-    }
+/*Get Involved Container, Opportunities, and location styles*/
+.get-involved {
+    border: 2px solid #000;
+    overflow: hidden;
+}
 
-    .get-involved_opportunities {
-        padding: 1.1em;
-    }
+.get-involved_opportunities {
+    padding: 1.1em;
+}
 
-    .get-involved_location {
-        background-color: #e2e2e2;
-        padding: 1.3em;
-    }
+.get-involved_location {
+    background-color: #e2e2e2;
+    padding: 1.3em;
+}

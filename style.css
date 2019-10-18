@@ -1415,6 +1415,11 @@ input#gform_submit_button_93:hover {
     }
 }
 
+/*Qode Accordion Background Style for Hover – CKM*/
+.qode-title-holder:hover {
+    background-color: #000 !important;
+    transition: 0.3s;
+}
 
 /******* End of Style Migration from Backend of WP "Additional CSS" **********/
 

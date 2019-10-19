@@ -302,6 +302,46 @@ h4.q_slide_subtitle {
     display: none !important;
 }
 
+/*Gravity Forms Styling*/
+
+body .gform_wrapper .gform_body .gform_fields .gfield .gfield_label {
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
+}
+
+#input_25_1_3_container {
+    float: none;
+}
+
+#input_25_1_6_container {
+    float: none;
+}
+
+div.gform_footer.top_label {
+    text-align: center !important;
+}
+
+.gform_submit_button:hover {
+    border-color: #313131;
+    color: #fff;
+    background-color: #313131 !important;
+}
+
+.blog_holder article .post_text h5 {
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
+}
+
+.title.title_size_large h1 {
+    text-transform: uppercase !important;
+}
+
+.qode-advanced-tabs .qode-advanced-tabs-nav li {
+    background-color: #000;
+}
+
 /* Gravity forms button not centering on mobile */
 body .gform_wrapper input[type=submit],
 body .gform_wrapper input[type=button],

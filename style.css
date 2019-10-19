@@ -1459,7 +1459,9 @@ input#gform_submit_button_93:hover {
 @media (max-width: 1024px) {
     .qode-advanced-tabs.qode-advanced-horizontal-tab.qode-advanced-tabs-nav li.ui-state-active .ui-state-default .ui-corner-top .ui-state-active {
         background-color: #fff;
-        border-bottom: none!important;
+    }
+    .get-involved_opportunities.get-involved_location {
+        display: flex;
     }
 }
 
@@ -1467,6 +1469,9 @@ input#gform_submit_button_93:hover {
 @media (max-width: 768px) {
     .qode-advanced-tabs.qode-advanced-horizontal-tab.qode-advanced-tabs-nav li.ui-state-active {
         background-color: #fff;
+    }
+    .get-involved_opportunities.get-involved_location {
+        display: flex;
     }
 }
 

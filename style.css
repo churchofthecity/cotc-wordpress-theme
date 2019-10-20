@@ -1464,7 +1464,7 @@ input#gform_submit_button_93:hover {
         display: flex;
     }
     .qode-advanced-tab-text-after-icon {
-        display: table-row;
+        display: table-row!important;
     }
 }
 
@@ -1477,7 +1477,7 @@ input#gform_submit_button_93:hover {
         display: flex;
     }
     .qode-advanced-tab-text-after-icon {
-        display: table-row;
+        display: table-row!important;
     }
 }
 @media (max-width: 500px) {
@@ -1488,7 +1488,7 @@ input#gform_submit_button_93:hover {
         display: flex;
     }
     .qode-advanced-tab-text-after-icon {
-        display: table-row;
+        display: table-row!important;
     }
 }
 

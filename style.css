@@ -1463,6 +1463,9 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
+    .qode-advanced-tab-text-after-icon {
+        display: table-row;
+    }
 }
 
 
@@ -1473,6 +1476,9 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
+    .qode-advanced-tab-text-after-icon {
+        display: table-row;
+    }
 }
 @media (max-width: 500px) {
     .qode-advanced-tabs.qode-advanced-horizontal-tab.qode-advanced-tabs-nav li.ui-state-active {
@@ -1480,6 +1486,9 @@ input#gform_submit_button_93:hover {
     }
     .get-involved_opportunities.get-involved_location {
         display: flex;
+    }
+    .qode-advanced-tab-text-after-icon {
+        display: table-row;
     }
 }
 

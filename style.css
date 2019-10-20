@@ -1463,7 +1463,7 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
-    .qode-advanced-tab-text-after-icon {
+    .qode-advanced-tabs .qode-advanced-tabs-nav li a .qode-advanced-tab-text-after-icon {
         display: table-row!important;
     }
 }
@@ -1476,7 +1476,7 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
-    .qode-advanced-tab-text-after-icon {
+    .qode-advanced-tabs .qode-advanced-tabs-nav li a .qode-advanced-tab-text-after-icon {
         display: table-row!important;
     }
 }
@@ -1487,7 +1487,7 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
-    .qode-advanced-tab-text-after-icon {
+    .qode-advanced-tabs .qode-advanced-tabs-nav li a .qode-advanced-tab-text-after-icon {
         display: table-row!important;
     }
 }

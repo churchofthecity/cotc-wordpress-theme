@@ -1463,6 +1463,10 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
+    /*Add padding to text container so it doesn't run right against border */
+     #tab-get-involved-576 {
+         padding: 35px 25px !important;
+     }
 }
 
 
@@ -1473,6 +1477,10 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
+    /*Add padding to text container so it doesn't run right against border */
+     #tab-get-involved-576 {
+         padding: 35px 25px !important;
+     }
 }
 @media (max-width: 500px) {
     .qode-advanced-tabs.qode-advanced-horizontal-tab.qode-advanced-tabs-nav li.ui-state-active {
@@ -1481,6 +1489,10 @@ input#gform_submit_button_93:hover {
     .get-involved_opportunities.get-involved_location {
         display: flex;
     }
+    /*Add padding to text container so it doesn't run right against border */
+     #tab-get-involved-576 {
+         padding: 35px 25px !important;
+     }
 }
 
 /*Qode Accordion Background Style for Hover – CKM*/

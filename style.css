@@ -1570,8 +1570,6 @@ input#pwbox-18006 {
 
 /* For Missional Partners*/
 .qode_video_box .qode_video_image img {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
+    width: 50%!important;
+    margin: auto!important;
 }

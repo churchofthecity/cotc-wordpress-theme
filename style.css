@@ -574,13 +574,13 @@ a.qbutton.small:hover {
 }
 
 /*Style Qbutton White Default*/
-a.qbutton.white {
+.qbutton.white {
     color: #0a0a0a;
     background: #fff;
     border: 2px solid #0a0a0a;
 }
 
-a.qbutton.white:hover {
+.qbutton.white:hover {
     color: #fff;
     background: #0a0a0a;
     border: 2px solid #0a0a0a;

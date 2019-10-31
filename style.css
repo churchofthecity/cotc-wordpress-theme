@@ -570,7 +570,20 @@ a.qbutton.small {
 a.qbutton.small:hover {
     color: #0a0a0a;
     background: #fff;
-    border: 1px solid #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+/*Style Qbutton White Default*/
+a.qbutton.white.default {
+    color: #0a0a0a;
+    background: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+a.qbutton.white.default:hover {
+    color: #fff;
+    background: #0a0a0a;
+    border: 2px solid #0a0a0a;
 }
 
 /*Center Buttons COTC Franklin Men*/

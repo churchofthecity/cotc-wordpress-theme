@@ -1522,9 +1522,8 @@ input#pwbox-18006 {
 
 .get-involved_location {
     background-color: #e2e2e2;
-    padding: 3.1em;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 3.5em;
+    
 }
 
 /**** Media Query to style Qode Advanced Tabs at Breakpoint *****/

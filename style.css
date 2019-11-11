@@ -1510,6 +1510,10 @@ input#pwbox-18006 {
     overflow: hidden;
 }
 
+.get-involved.grid_section {
+    display: flex;
+}
+
 .get-involved_opportunities {
     padding: 1.1em;
     display: flex;

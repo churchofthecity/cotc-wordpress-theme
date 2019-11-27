@@ -153,6 +153,14 @@ Template: bridge
     border: 2px solid #fff !important;
 }
 
+/*Solid White Button with Black Border - Default */
+.qbutton.center.white.default {
+    color: #000;
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+    border-radius: 0;
+}
+
 /*Qode V2 Simple Button w/White Border */
 .qode-btn.qode-btn-simple.v2-white-border-simple {
     color: #fff !important;
@@ -1523,7 +1531,7 @@ input#pwbox-18006 {
 .get-involved_location {
     background-color: #e2e2e2;
     padding: 0 3.5em 10em 0.5em;
-    
+
 }
 
 /**** Media Query to style Qode Advanced Tabs at Breakpoint *****/

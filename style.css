@@ -138,19 +138,19 @@ Template: bridge
 /*Qode V2 Buttons Styling*/
 /*Solid White Button*/
 .qode-btn.qode-btn-solid.v2-solid-button {
-    padding: 0.75em 1.5em !important;
-    font-weight: bold !important;
+    padding: 0.75em 1.5em ;
+    font-weight: bold ;
     border-radius: 0;
-    border: 1px solid #fff !important;
+    border: 1px solid #fff ;
 }
 
 .qode-btn.qode-btn-solid.v2-solid-button:hover {
-    color: #fff !important;
-    padding: 0.75em 1.5em !important;
-    font-weight: bold !important;
-    background-color: rgba(254, 254, 254, 0.1) !important;
+    color: #fff ;
+    padding: 0.75em 1.5em ;
+    font-weight: bold ;
+    background-color: rgba(254, 254, 254, 0.1) ;
     border-radius: 0;
-    border: 2px solid #fff !important;
+    border: 2px solid #fff ;
 }
 
 /*Solid White Button with Black Border - Default */
@@ -170,19 +170,19 @@ Template: bridge
 
 /*Qode V2 Simple Button w/White Border */
 .qode-btn.qode-btn-simple.v2-white-border-simple {
-    color: #fff !important;
-    background-color: rgba(0, 0, 0, 0) !important;
-    border: 2px solid #fff !important;
-    padding: .75em 1.75em !important;
+    color: #fff ;
+    background-color: rgba(0, 0, 0, 0) ;
+    border: 2px solid #fff ;
+    padding: .75em 1.75em ;
     font-weight: bold;
 }
 
 /*Qode V2 Simple Button w/White Border Hover State*/
 .qode-btn.qode-btn-simple.v2-white-border-simple:hover {
-    color: #000 !important;
-    background-color: rgba(255, 255, 255, 1) !important;
-    border: 2px solid #fff !important;
-    padding: .75em 1.75em !important;
+    color: #000 ;
+    background-color: rgba(255, 255, 255, 1) ;
+    border: 2px solid #fff ;
+    padding: .75em 1.75em ;
     font-weight: bold;
 }
 

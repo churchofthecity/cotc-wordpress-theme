@@ -99,9 +99,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green.default,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
-    color: fff;
+    color: rgba(202, 169, 94, 1);
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid fff;
+    border: 2px solid rgba(202, 169, 94, 1);
     border-radius: 0;
 }
 
@@ -109,9 +109,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default:hover {
-    color: #fff;
+    color: rgba(202, 169, 94, 1);
     background: rgba(40, 53, 70, 1);
-    border: 2px solid #fff;
+    border: 2px solid rgba(202, 169, 94, 1));
     border-radius: 0;
 }
 
@@ -119,9 +119,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white {
-    color: #fff;
+    color: rgba(202, 169, 94, 1);
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid #fff;
+    border: 2px solid rgba(202, 169, 94, 1);
     border-radius: 0;
 }
 
@@ -129,9 +129,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton:hover {
-    color: #fff;
+    color: rgba(202, 169, 94, 1);
     background: rgba(40, 53, 70, 1);
-    border: 2px solid #fff;
+    border: 2px solid rgba(202, 169, 94, 1);
     border-radius: 0;
 }
 

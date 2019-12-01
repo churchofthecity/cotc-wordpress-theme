@@ -99,9 +99,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green.default,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
-    color: #000;
+    color: #fff;
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 0;
 }
 
@@ -110,8 +110,8 @@ Template: bridge
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default:hover {
     color: #fff;
-    background: #000;
-    border: 2px solid #000;
+    background: rgba(40, 53, 70, 1);
+    border: 2px solid #fff;
     border-radius: 0;
 }
 
@@ -141,12 +141,12 @@ Template: bridge
     padding: 0.75em 1.5em ;
     font-weight: bold ;
     border-radius: 0;
-    border: 1px solid #fff ;
+    border: 2px solid #fff;
 }
 
 .qode-btn.qode-btn-solid.v2-solid-button:hover {
-    color: #fff ;
-    padding: 0.75em 1.5em ;
+    color: #fff;
+    padding: 0.75em 1.5em;
     font-weight: bold ;
     background-color: rgba(254, 254, 254, 0.1) ;
     border-radius: 0;

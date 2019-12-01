@@ -119,9 +119,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white {
-    color: #000 !important;
-    background: rgba(255, 255, 255, 0.1) !important;
-    border: 2px solid #000 !important;
+    color: #000;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #000;
     border-radius: 0;
 }
 
@@ -129,9 +129,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton:hover {
-    color: #fff !important;
-    background: #000 !important;
-    border: 2px solid #000 !important;
+    color: #fff;
+    background: #000;
+    border: 2px solid #000;
     border-radius: 0;
 }
 

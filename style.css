@@ -153,6 +153,19 @@ Template: bridge
     border: 2px solid #fff;
 }
 
+/*Style Default Qbutton Medium*/
+.qbutton.medium.default {
+    color: #fff;
+    background: #000;
+    border: 2px solid #000;
+}
+
+qbutton.medium.default:hover {
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+}
+
 /*Solid White Button with Black Border - Default */
 .qbutton.center.white.default {
     color: #000;

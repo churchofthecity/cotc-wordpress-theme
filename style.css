@@ -2530,3 +2530,9 @@ body div#ui-datepicker-div[style] {
 #pum-26316 {
     z-index: 1999999999
 }
+
+/** Center MailChimp Signup Form Box **/
+#mc_embed_signup {
+    display: flex;
+    justify-content: center;
+}

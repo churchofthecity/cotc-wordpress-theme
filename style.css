@@ -587,6 +587,12 @@ span.wpcf7-list-item {
     justify-content: flex-start;
 }
 
+/*Center Email Submit Form */
+form#mc-embedded-subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+
 /*Style 21Days Daily Email Subscribe Button*/
 input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;

@@ -588,7 +588,7 @@ span.wpcf7-list-item {
 }
 
 /*Center Email Submit Form */
-form#mc-embedded-subscribe-form.validate {
+div#mc-embedded-subscribe-form.validate {
     display: flex;
     justify-content: center;
 }

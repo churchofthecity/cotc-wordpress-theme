@@ -2542,3 +2542,9 @@ body div#ui-datepicker-div[style] {
     display: flex;
     justify-content: center;
 }
+
+/** Apply border around Input Login Box of password protected page **/
+.page-id-29417 .post-password-form input[type=password] {
+    border: 2px solid #000 !important;
+    width: 25% !important;
+}

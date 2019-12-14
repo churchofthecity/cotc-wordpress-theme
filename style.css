@@ -562,8 +562,15 @@ body .gform_wrapper textarea {
 .post-password-form {
     border: 2px !important;
     border-color: #0a0a0a !important;
+    margin: 2em !important;
 }
 
+/** Apply border around Input Login Box of password protected page **/
+input#pwbox-29417,
+input.post-password-form input[type=password] {
+    border: 2px solid #000 !important;
+    width: 25% !important;
+}
 
 /* Blog Styling */
 .blog_single article .post_info {
@@ -2541,11 +2548,4 @@ body div#ui-datepicker-div[style] {
 #mc_embed_signup {
     display: flex;
     justify-content: center;
-}
-
-/** Apply border around Input Login Box of password protected page **/
-input#pwbox-29417,
-input.post-password-form input[type=password] {
-    border: 2px solid #000 !important;
-    width: 25% !important;
 }

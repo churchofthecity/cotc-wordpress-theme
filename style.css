@@ -94,7 +94,7 @@ Template: bridge
 }
 
 /* Slider Button Styling*/
-
+/*Green Default Button Style - Home page*/
 .carousel-inner .item.dark .slider_content .text .qbutton,
 .carousel-inner .item.dark .slider_content .text .qbutton.green.default,
 .carousel-inner .slider_content .text .qbutton,
@@ -115,6 +115,7 @@ Template: bridge
     border-radius: 0;
 }
 
+/*White Button Style - Home page */
 .carousel-inner .item.dark .slider_content .text .qbutton,
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
@@ -178,6 +179,18 @@ Template: bridge
     border: 2px solid #000;
 }
 
+/*Qbutton Default Style */
+.qbutton.default {
+    color: #fff;
+    background: #000;
+    border: 2px solid #000;
+}
+
+.qbutton.default:hover {
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+}
 
 /*Solid White Button with Black Border - Default */
 .qbutton.center.white.default {

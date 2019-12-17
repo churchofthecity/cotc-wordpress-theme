@@ -641,9 +641,11 @@ form#mc-embed-signup {
 input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;
     color: #fff;
+    border: 1px solid #0a0a0a;
     font-weight: 700;
     border-radius: 0;
-    width: 100%;
+    width: 20rem;
+    margin: auto;
 }
 
 input#mc-embedded-subscribe.button:hover {
@@ -651,6 +653,9 @@ input#mc-embedded-subscribe.button:hover {
     color: #0a0a0a;
     border: 1px solid #0a0a0a;
     font-weight: 700;
+    border-radius: 0;
+    width: 20rem;
+    margin: auto;
 }
 
 

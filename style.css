@@ -643,6 +643,7 @@ input#mc-embedded-subscribe.button {
     color: #fff;
     font-weight: 700;
     border-radius: 0;
+    width: 100%;
 }
 
 input#mc-embedded-subscribe.button:hover {

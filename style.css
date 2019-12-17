@@ -614,7 +614,7 @@ form#mc-embed-signup {
 }
 
 /** Center MailChimp Signup Form Box - 21 Days **/
-#mc_embed_signup {
+#mc_embed_signup .button{
     display: flex;
     justify-content: center;
     background:#fff; 
@@ -625,7 +625,7 @@ form#mc-embed-signup {
 }
 
 @media (max-width: 768px) { /*when screen reaches set width, center Submit button underneath input box */
-    #mc_embed_signup {
+    #mc_embed_signup{
         display: flex;
         justify-content: center;
     }

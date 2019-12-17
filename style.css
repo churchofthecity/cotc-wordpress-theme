@@ -613,6 +613,30 @@ form#mc-embed-signup {
     justify-content: center;
 }
 
+/** Center MailChimp Signup Form Box - 21 Days **/
+#mc_embed_signup {
+    display: flex;
+    justify-content: center;
+    background:#fff; 
+    clear:left; 
+    font:14px 
+    Helvetica,Arial,sans-serif; 
+    width:100%;
+}
+
+@media (max-width: 768px) { /*when screen reaches set width, center Submit button underneath input box */
+    #mc_embed_signup {
+        display: flex;
+        justify-content: center;
+    }
+    input#mc-embedded-subscribe.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    }
+}
+
 /*Style 21Days Daily Email Subscribe Button*/
 input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;
@@ -627,6 +651,7 @@ input#mc-embedded-subscribe.button:hover {
     border: 1px solid #0a0a0a;
     font-weight: 700;
 }
+
 
 /*Style Small Primary Button Color*/
 a.qbutton.small {
@@ -2557,26 +2582,3 @@ body div#ui-datepicker-div[style] {
     z-index: 1999999999
 }
 
-/** Center MailChimp Signup Form Box **/
-#mc_embed_signup {
-    display: flex;
-    justify-content: center;
-    background:#fff; 
-    clear:left; 
-    font:14px 
-    Helvetica,Arial,sans-serif; 
-    width:100%;
-}
-
-@media (max-width: 768px) { /*when screen reaches set width, center Submit button underneath input box */
-    #mc_embed_signup {
-        display: flex;
-        justify-content: center;
-    }
-    input#mc-embedded-subscribe.button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    }
-}

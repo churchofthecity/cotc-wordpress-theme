@@ -629,15 +629,7 @@ form#mc-embed-signup {
         display: flex;
         justify-content: center;
     }
-    input#mc-embedded-subscribe.button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    }
-}
-
-/*Style 21Days Daily Email Subscribe Button*/
+    /*Style 21Days Daily Email Subscribe Button*/
 input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;
     color: #fff;
@@ -656,6 +648,24 @@ input#mc-embedded-subscribe.button:hover {
     border-radius: 0;
     width: 20rem;
     margin: auto;
+}
+}
+
+/*Style 21Days Daily Email Subscribe Button*/
+input#mc-embedded-subscribe.button {
+    background-color: #0a0a0a;
+    color: #fff;
+    border: 1px solid #0a0a0a;
+    font-weight: 700;
+    border-radius: 0;
+}
+
+input#mc-embedded-subscribe.button:hover {
+    background-color: #fff;
+    color: #0a0a0a;
+    border: 1px solid #0a0a0a;
+    font-weight: 700;
+    border-radius: 0;
 }
 
 

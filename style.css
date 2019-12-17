@@ -2569,7 +2569,7 @@ body div#ui-datepicker-div[style] {
 }
 
 @media only screen and (min-width: 768px) { /*when screen reaches set width, center Submit button underneath input box */
-    #mc_embed_signup .clear {
+    #mc_embed_signup {
         display: flex;
         justify-content: center;
     }

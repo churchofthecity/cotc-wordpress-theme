@@ -2573,4 +2573,10 @@ body div#ui-datepicker-div[style] {
         display: flex;
         justify-content: center;
     }
+    input#mc-embedded-subscribe.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    }
 }

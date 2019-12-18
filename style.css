@@ -608,19 +608,17 @@ span.wpcf7-list-item {
 }
 
 /*Center Email Submit Form */
-form#mc-embed-signup {
+/* form#mc-embed-signup {
     display: flex;
     justify-content: center;
-}
+} */
 
 /** Center MailChimp Signup Form Box - 21 Days **/
 #mc_embed_signup .button{
+    background:#fff; 
+    font:14px Helvetica,Arial,sans-serif; 
     display: flex;
     justify-content: center;
-    background:#fff; 
-    clear:left; 
-    font:14px 
-    Helvetica,Arial,sans-serif; 
     width:100%;
 }
 

@@ -99,9 +99,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green.default,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
-    color: rgba(202, 169, 94, 1);
+    color: rgba(30, 66, 101, 1);
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(202, 169, 94, 1);
+    border: 2px solid rgba(30, 66, 101, 1);
     border-radius: 0;
 }
 
@@ -109,9 +109,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default:hover {
-    color: rgba(202, 169, 94, 1);
-    background: rgba(40, 53, 70, 1);
-    border: 2px solid rgba(202, 169, 94, 1);
+    color: rgba(255, 255, 255, 1);
+    background: rgba(30, 66, 101, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
 }
 
@@ -120,9 +120,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white {
-    color: rgba(202, 169, 94, 1);
+    color: rgba(30, 66, 101, 1);
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(202, 169, 94, 1);
+    border: 2px solid rgba(30, 66, 101, 1);
     border-radius: 0;
 }
 
@@ -130,9 +130,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton:hover {
-    color: rgba(202, 169, 94, 1);
-    background: rgba(40, 53, 70, 1);
-    border: 2px solid rgba(202, 169, 94, 1);
+    color: rgba(255, 255, 255, 1);
+    background: rgba(30, 66, 101, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
 }
 
@@ -615,11 +615,11 @@ span.wpcf7-list-item {
 
 /** Center MailChimp Signup Form Box - 21 Days **/
 #mc_embed_signup {
-    background:#fff; 
-    font:14px Helvetica,Arial,sans-serif; 
+    background: #fff;
+    font: 14px Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: center;
-    width:100%;
+    width: 100%;
 }
 
 /*Style 21Days Daily Email Subscribe Button*/

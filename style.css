@@ -639,31 +639,34 @@ input#mc-embedded-subscribe.button:hover {
     border-radius: 0;
 }
 
-@media (max-width: 768px) { /*when screen reaches set width, center Submit button underneath input box */
-    #mc_embed_signup{
+@media (max-width: 768px) {
+
+    /*when screen reaches set width, center Submit button underneath input box */
+    #mc_embed_signup {
         display: flex;
         justify-content: center;
     }
-    /*Style 21Days Daily Email Subscribe Button*/
-input#mc-embedded-subscribe.button {
-    background-color: #0a0a0a;
-    color: #fff;
-    border: 1px solid #0a0a0a;
-    font-weight: 700;
-    border-radius: 0;
-    width: 20rem;
-    margin: auto;
-}
 
-input#mc-embedded-subscribe.button:hover {
-    background-color: #fff;
-    color: #0a0a0a;
-    border: 1px solid #0a0a0a;
-    font-weight: 700;
-    border-radius: 0;
-    width: 20rem;
-    margin: auto;
-}
+    /*Style 21Days Daily Email Subscribe Button*/
+    input#mc-embedded-subscribe.button {
+        background-color: #0a0a0a;
+        color: #fff;
+        border: 1px solid #0a0a0a;
+        font-weight: 700;
+        border-radius: 0;
+        width: 20rem;
+        margin: auto;
+    }
+
+    input#mc-embedded-subscribe.button:hover {
+        background-color: #fff;
+        color: #0a0a0a;
+        border: 1px solid #0a0a0a;
+        font-weight: 700;
+        border-radius: 0;
+        width: 20rem;
+        margin: auto;
+    }
 }
 
 
@@ -2596,4 +2599,3 @@ body div#ui-datepicker-div[style] {
 #pum-26316 {
     z-index: 1999999999
 }
-

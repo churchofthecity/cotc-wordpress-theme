@@ -96,7 +96,7 @@ Template: bridge
 /* Slider Button Styling*/
 /*Green Default Button Style - Home page*/
 .carousel-inner .item.dark .slider_content .text .qbutton,
-.carousel-inner .item.dark .slider_content .text .qbutton.green.default,
+.carousel-inner .item.dark .slider_content .text .qbutton.green,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
     color: rgba(30, 66, 101, 1);
@@ -106,7 +106,7 @@ Template: bridge
 }
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover,
-.carousel-inner .item.dark .slider_content .text .qbutton.green.default:hover,
+.carousel-inner .item.dark .slider_content .text .qbutton.green:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default:hover {
     color: rgba(255, 255, 255, 1);

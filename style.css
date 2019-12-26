@@ -120,7 +120,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white {
-    color: rgba(30, 66, 101, 1);
+    color: rgba(255, 255, 255, 1);
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(30, 66, 101, 1);
     border-radius: 0;

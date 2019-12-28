@@ -207,6 +207,13 @@ Template: bridge
     border-radius: 0;
 }
 
+/*Hide button Center White - class: faq-mobile */
+@media and screen (min-width 768px) {
+    .qbutton.center.white.default.faq-mobile {
+        display: none;
+    }
+}
+
 /*Qode V2 Simple Button w/White Border */
 .qode-btn.qode-btn-simple.v2-white-border-simple {
     color: #fff;

@@ -209,7 +209,7 @@ Template: bridge
 
 /*Hide button Center White - class: faq-mobile */
 @media only and screen (min-width 768px) {       
-    .qbutton.center.white.default.faq-mobile {
+    a.qbutton.center.white.default.faq-mobile {
         display: none;
     }
 }

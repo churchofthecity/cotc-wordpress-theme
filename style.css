@@ -1570,9 +1570,9 @@ input#gform_submit_button_93:hover {
         font-size: 30px !important;
     }
 
-    .qbutton:hover {
+    /* .qbutton:hover {  //Commented out for 21 Days mobile style FAQ Button 12/28/19 
         color: #000 !important;
-    }
+    } */
 }
 
 /*H1 Media Query to contain text for mobile – CKM 9.3.19*/

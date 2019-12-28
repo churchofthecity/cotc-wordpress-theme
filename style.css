@@ -209,7 +209,13 @@ Template: bridge
 
 /*Hide button Center White - class: faq-mobile */
 @media only screen and (min-width 768px) {
-    a.qbutton.center.white.default.faq-mobile {
+
+    body:not(.qode_disabled_responsive_button_padding_change) #submit_comment,
+    body:not(.qode_disabled_responsive_button_padding_change) .drop_down .wide .second ul li .qbutton,
+    body:not(.qode_disabled_responsive_button_padding_change) .drop_down .wide .second ul li ul li .qbutton,
+    body:not(.qode_disabled_responsive_button_padding_change) .load_more a,
+    body:not(.qode_disabled_responsive_button_padding_change) .qbutton,
+    body:not(.qode_disabled_responsive_button_padding_change) .qbutton.small a.qbutton.center.white.default.faq-mobile {
         display: none;
     }
 }

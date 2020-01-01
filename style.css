@@ -209,7 +209,7 @@ Template: bridge
 
 /*Hide button Center White - class: faq-mobile */
 @media only screen and (min-width: 768px) {
-     a.qbutton.center.white.default.faq-mobile {
+    a.qbutton.center.white.default.faq-mobile {
         display: none;
     }
 }
@@ -630,13 +630,25 @@ span.wpcf7-list-item {
     width: 100%;
 }
 
+/*Style 21Days Daily Email Input Box*/
+
+input#mce-EMAIL.email {
+    border: 2px solid #ABB0B2;
+    height: 2.25rem;
+    width: 18rem;
+}
+
+
 /*Style 21Days Daily Email Subscribe Button*/
+
 input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;
     color: #fff;
     border: 2px solid #0a0a0a;
     font-weight: 700;
     border-radius: 0;
+    height: 100%;
+    width: 100%;
 }
 
 input#mc-embedded-subscribe.button:hover {
@@ -645,6 +657,8 @@ input#mc-embedded-subscribe.button:hover {
     border: 2px solid #0a0a0a;
     font-weight: 700;
     border-radius: 0;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 768px) {

@@ -634,7 +634,7 @@ span.wpcf7-list-item {
 input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;
     color: #fff;
-    border: 1px solid #0a0a0a;
+    border: 2px solid #0a0a0a;
     font-weight: 700;
     border-radius: 0;
 }
@@ -642,7 +642,7 @@ input#mc-embedded-subscribe.button {
 input#mc-embedded-subscribe.button:hover {
     background-color: #fff;
     color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    border: 2px solid #0a0a0a;
     font-weight: 700;
     border-radius: 0;
 }

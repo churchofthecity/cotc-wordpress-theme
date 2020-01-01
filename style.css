@@ -209,7 +209,7 @@ Template: bridge
 
 /*Hide button Center White - class: faq-mobile */
 @media only screen and (min-width: 768px) {
-     a.qbutton.center.white.default.faq-mobile {
+    a.qbutton.center.white.default.faq-mobile {
         display: none;
     }
 }
@@ -637,6 +637,8 @@ input#mc-embedded-subscribe.button {
     border: 2px solid #0a0a0a;
     font-weight: 700;
     border-radius: 0;
+    height: 100%;
+    width: 100%;
 }
 
 input#mc-embedded-subscribe.button:hover {
@@ -645,6 +647,8 @@ input#mc-embedded-subscribe.button:hover {
     border: 2px solid #0a0a0a;
     font-weight: 700;
     border-radius: 0;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 768px) {

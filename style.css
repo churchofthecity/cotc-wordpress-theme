@@ -633,9 +633,9 @@ span.wpcf7-list-item {
 /*Style 21Days Daily Email Input Box*/
 
 input#mce-EMAIL.email {
-    border: 2px solid #ABB0B2;
-    height: 2.25rem;
-    width: 18rem;
+    border: 2px solid #ABB0B2 !important;
+    height: 2.25rem !important;
+    width: 18rem !important;
 }
 
 

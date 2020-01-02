@@ -1598,10 +1598,10 @@ input#gform_submit_button_93:hover {
     .title h1 {
         font-size: 15px !important;
     }
-
-    .qbutton:hover {
+/***** Comment out code to troubleshoot for /21Days ***/
+    /* .qbutton:hover {
         color: #fff !important;
-    }
+    } */
 }
 
 

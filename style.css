@@ -645,7 +645,7 @@ input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;
     color: #fff;
     border: 2px solid #0a0a0a;
-    font-weight: 700;
+    -webkit-font-smoothing: auto;
     border-radius: 0;
     height: 100%;
     width: 100%;
@@ -655,7 +655,7 @@ input#mc-embedded-subscribe.button:hover {
     background-color: #fff;
     color: #0a0a0a;
     border: 2px solid #0a0a0a;
-    font-weight: 700;
+    -webkit-font-smoothing: auto;
     border-radius: 0;
     height: 100%;
     width: 100%;
@@ -678,7 +678,7 @@ input#mc-embedded-subscribe.button:hover {
         background-color: #0a0a0a;
         color: #fff;
         border: 2px solid #0a0a0a;
-        font-weight: 700;
+        -webkit-font-smoothing: auto;
         border-radius: 0;
         width: 20rem;
         margin: auto;
@@ -688,7 +688,7 @@ input#mc-embedded-subscribe.button:hover {
         background-color: #fff;
         color: #0a0a0a;
         border: 2px solid #0a0a0a;
-        font-weight: 700;
+        -webkit-font-smoothing: auto;
         border-radius: 0;
         width: 20rem;
         margin: auto;

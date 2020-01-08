@@ -1056,15 +1056,15 @@ input#gform_submit_button_27:hover {
     border: 2px solid #0a0a0a;
 }
 
-/*Franklin Baptism Class Registration Modal Button*/ 
-input#gform_submit_button_94 {
+/*Franklin Baptism Class Registration Modal Button*/
+input#gform_submit_button_94.gform_button.button {
     background-color: #0a0a0a;
     border-radius: 0;
     color: #fff;
     border: 2px solid #0a0a0a;
 }
 
-input#gform_submit_button_94:hover {
+input#gform_submit_button_94.gform_button.button:hover {
     background-color: #fff;
     border-radius: 0;
     color: #0a0a0a;
@@ -1613,7 +1613,8 @@ input#gform_submit_button_93:hover {
     .title h1 {
         font-size: 15px !important;
     }
-/***** Comment out code to troubleshoot for /21Days ***/
+
+    /***** Comment out code to troubleshoot for /21Days ***/
     /* .qbutton:hover {
         color: #fff !important;
     } */

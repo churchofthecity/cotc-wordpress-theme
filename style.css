@@ -1225,52 +1225,7 @@ input#gform_submit_button_19:hover {
 /*	border: 5px solid #ffffff;
 }*/
 
-/* Text on Image Solution */
-//Community Groups
 
-.cgcontainer {
-  position: relative;
-  text-align: center;
-  color: white;
- }
-
- #groupsheader.groupsheader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 2.4em;
-  letter-spacing: .2em;
-  white-space: nowrap;
-  padding-bottom: 0.25em;
- }
-
-@media screen and (max-width: 1200px) {
- h3.groupsheader {
-  font-size: 2.1em; 
- }
-}
-@media screen and (max-width: 1000px) {
- h3.groupsheader {
-  font-size: 1.6em; 
- }
-}
-@media screen and (max-width: 768px) {
- h3.groupsheader {
-  font-size: 1.2em; 
- }
-}
-@media screen and (max-width: 767px) {
- h3.groupsheader {
-  font-size: 2.4em; 
- }
-}
-@media screen and (max-width: 600px) {
- h3.groupsheader {
-  font-size: 1.8em; 
- }
-}
 
 /*Style Next Button on Team Member Volunteer Application*/
 #gform_next_button_13_44 {

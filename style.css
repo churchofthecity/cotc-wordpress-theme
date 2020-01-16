@@ -1219,8 +1219,10 @@ input#gform_submit_button_19:hover {
     font-size: 5em;
     text-transform: uppercase;
     text-align: center;
+    /*This keeps text from breaking*/
+    white-space: nowrap;
 }
-
+.
 /*Add Border to Title*/
 /*	border: 5px solid #ffffff;
 }*/

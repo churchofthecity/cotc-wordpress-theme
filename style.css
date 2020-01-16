@@ -1214,7 +1214,7 @@ input#gform_submit_button_19:hover {
     justify-content: center;
 }
 
-.title_subtitle_holder .title_subtitle_holder_inner h1 {
+.title_subtitle_holder .title_subtitle_holder_inner h1.span {
     letter-spacing: .3em;
     font-size: 5em;
     text-transform: uppercase;
@@ -1222,7 +1222,7 @@ input#gform_submit_button_19:hover {
     /*This keeps text from breaking*/
     white-space: nowrap;
 }
-.
+
 /*Add Border to Title*/
 /*	border: 5px solid #ffffff;
 }*/

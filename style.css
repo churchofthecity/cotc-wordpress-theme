@@ -1216,16 +1216,12 @@ input#gform_submit_button_19:hover {
 
 .title_subtitle_holder .title_subtitle_holder_inner h1 {
     letter-spacing: .3em;
-    font-size: 5em;
+    font-size: 5vw;
     text-transform: uppercase;
     text-align: center;
+    white-space: nowrap;
 }
 
-/*This keeps text from breaking*/
-.title_subtitle_holder.title_subtitle_holder_inner.h1 span {
-    white-space: nowrap;
-    font-size: 5.0vw;
-}
 /*Add Border to Title*/
 /*	border: 5px solid #ffffff;
 }*/

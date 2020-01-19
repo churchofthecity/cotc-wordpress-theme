@@ -2647,5 +2647,5 @@ body div#ui-datepicker-div[style] {
 
 /*21 Days Story - Submit Form*/
 div _ngcontent-bts-c2.p-popup-container {
-    margin: auto;
+    margin: auto!important;
 }

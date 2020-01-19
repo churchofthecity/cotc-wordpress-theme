@@ -2644,3 +2644,8 @@ body div#ui-datepicker-div[style] {
 #pum-26316 {
     z-index: 1999999999
 }
+
+/*21 Days Story - Submit Form*/
+div _ngcontent-bts-c2.p-popup-container {
+    margin: auto;
+}

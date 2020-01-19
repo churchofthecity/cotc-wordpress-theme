@@ -2646,11 +2646,12 @@ body div#ui-datepicker-div[style] {
 }
 
 /*21 Days Story - Submit Form*/
-.p-popup-container {
+div.p-popup-container {
     margin: auto !important;
 }
 
-@media screen and (max-width: 490px) { .p-popup-container {
- margin: auto !important; 
-}
+@media screen and (max-width: 490px) { 
+    div.p-popup-container {
+        margin: auto !important; 
+    }
 }

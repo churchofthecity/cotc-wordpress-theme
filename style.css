@@ -2655,3 +2655,9 @@ div.p-popup-container {
         margin: auto !important;
     }
 }
+
+/*** Styles by Page ID ***/
+/* Worship - He Lives Shareable */
+.page-id-29854 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
+    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/01/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080.jpg);
+}

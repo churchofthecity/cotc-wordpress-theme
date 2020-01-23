@@ -2674,3 +2674,17 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.page-id-29854 h2 .he-lives_text {
+    /*Keep text centered over artwork*/
+    display: flex;
+    justify-content: center;
+    /*give some color*/
+    color: #fff;
+    /*add some spacing to match hero image*/
+    letter-spacing: .4em;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+}

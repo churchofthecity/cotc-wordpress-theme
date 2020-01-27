@@ -2669,3 +2669,10 @@ html {
     /*Full Height*/
     height: 100%;
 }
+
+.page-id-14468 vc_single_image-wrapper vc_box_border_grey {
+    display: flex;
+}
+.page-id-14468 vc_single_image-img {
+    flex-grow: 1;
+}

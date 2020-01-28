@@ -120,7 +120,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default {
-    color: rgba(255, 255, 255, 1)!important;
+    color: rgba(255, 255, 255, 1) !important;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
@@ -130,7 +130,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default:hover {
-    color: rgba(0, 0, 0, 1)!important;
+    color: rgba(0, 0, 0, 1) !important;
     background: rgba(255, 255, 255, 1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
@@ -1226,7 +1226,52 @@ input#gform_submit_button_19:hover {
 /*	border: 5px solid #ffffff;
 }*/
 
+/* Header Text - College */
+.page-id-29796 .title_subtitle_holder .title_subtitle_holder_inner {
+    display: flex;
+    justify-content: center;
+}
 
+.page-id-29796 .title_subtitle_holder .title_subtitle_holder_inner .h1 span {
+    letter-spacing: .3em;
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+
+    width: 25%;
+    text-align: center;
+    margin: 200px auto;
+
+    color: blue;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.page-id-29796 .title_subtitle_holder .title_subtitle_holder_inner .h1 span::before,
+span::after {
+    content: '';
+    position: absolute;
+}
+
+.page-id-29796 .title_subtitle_holder .title_subtitle_holder_inner .h1 span::before {
+    background-image: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    background-position: 20%;
+}
+
+.page-id-29796 .title_subtitle_holder .title_subtitle_holder_inner .h1 span::after {
+    top:10px;
+    right:10px;
+    bottom:10px;
+    left:10px;
+    background-color: #fff;
+    z-index:-1;
+}
 
 /*Style Next Button on Team Member Volunteer Application*/
 #gform_next_button_13_44 {
@@ -2673,6 +2718,7 @@ html {
 .page-id-14468 .vc_single_image-wrapper .vc_box_border_grey {
     display: flex;
 }
+
 .page-id-14468 .vc_single_image-img {
     flex-grow: 1;
 }

@@ -1227,6 +1227,17 @@ input#gform_submit_button_19:hover {
 }*/
 
 /* Header Text - College */
+.page-id-29796 .title .title_size_small .position_center {
+    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/01/daan-stevens-371325-unsplash-scaled-e1578702189757.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 20% 100%;
+    padding: 6rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .page-id-29796 .title_subtitle_holder .title_subtitle_holder_inner {
     display: flex;
     justify-content: center;
@@ -1247,14 +1258,6 @@ input#gform_submit_button_19:hover {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
-    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/01/daan-stevens-371325-unsplash-scaled-e1578702189757.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 20% 100%;
-    padding: 6rem 0 2rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .page-id-29796 .title_subtitle_holder .title_subtitle_holder_inner .h1 span::before,

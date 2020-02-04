@@ -2681,10 +2681,7 @@ html {
 }
 
 /*This is background for Homepage - He Lives*/
-.page-id-30281 essb_links essb_displayed_bottom essb_share essb_template_dark-retina essb_1271489741 print-no {
-    margin: 0;
-}
 
-.page-id-30281 essb_links essb_displayed_bottom essb_share essb_template_dark-retina essb_1271489741 print-no essb_links_list essb_force_hide_name essb_force_hide {
+.page-id-30281 .essb_links .essb_displayed_bottom .essb_share essb_template_dark-retina .essb_1351358996 print-no location-setup-done #essb_displayed_bottom_1351358996 {
     display: none;
 }

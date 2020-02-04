@@ -99,7 +99,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
-    color:#fff !important;
+    color: #fff !important;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
@@ -109,7 +109,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default:hover {
-    color:#000 !important;
+    color: #000 !important;
     background: rgba(255, 255, 255, 1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
@@ -120,7 +120,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default {
-    color:#fff !important;
+    color: #fff !important;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
@@ -130,7 +130,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default:hover {
-    color:#000 !important;
+    color: #000 !important;
     background: rgba(255, 255, 255, 1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
@@ -2678,4 +2678,13 @@ html {
 
 .page-id-14468 .vc_single_image-img {
     flex-grow: 1;
+}
+
+/*This is background for Homepage - He Lives*/
+.page-id-30281 essb_links essb_displayed_bottom essb_share essb_template_dark-retina essb_1271489741 print-no {
+    margin: 0;
+}
+
+.page-id-30281 essb_links essb_displayed_bottom essb_share essb_template_dark-retina essb_1271489741 print-no essb_links_list essb_force_hide_name essb_force_hide {
+    display: none;
 }

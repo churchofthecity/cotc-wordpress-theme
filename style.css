@@ -2679,3 +2679,11 @@ html {
 .page-id-14468 .vc_single_image-img {
     flex-grow: 1;
 }
+
+/*This is background for Homepage */
+.page-id-30281 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
+    background: url(url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_HeLivesPromo_HomePage-1.png);)
+
+    /*Set Full Height*/
+    height: 100%;
+}

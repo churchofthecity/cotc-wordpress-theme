@@ -2682,7 +2682,7 @@ html {
 
 /*This is background for Homepage */
 .page-id-30281 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
-    background: url(url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_HeLivesPromo_HomePage-1.png);)
+    background: url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_HeLivesPromo_HomePage-1.png) no-repeat fixed center;
 
     /*Set Full Height*/
     height: 100%;

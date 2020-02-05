@@ -1222,6 +1222,10 @@ input#gform_submit_button_19:hover {
     white-space: nowrap;
 }
 
+/*** This is font size for /franklin/pastoralcare/support -CM ***/
+.page-id-19322 .title_subtitle_holder .title_subtitle_holder_inner h1 {
+    font-size: 3vw;
+}
 /*Add Border to Title*/
 /*	border: 5px solid #ffffff;
 }*/

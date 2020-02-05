@@ -184,12 +184,18 @@ Template: bridge
     color: #fff;
     background: #000;
     border: 2px solid #000;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 
 .qbutton.default:hover {
     color: #000;
     background: #fff;
     border: 2px solid #000;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 
 /*Solid White Button with Black Border - Default */
@@ -198,6 +204,9 @@ Template: bridge
     background: rgba(255, 255, 255, 1);
     border: 2px solid #000;
     border-radius: 0;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 
 .qbutton.center.white.default:hover {
@@ -205,6 +214,9 @@ Template: bridge
     background: rgba(0, 0, 0, 1);
     border: 2px solid #000;
     border-radius: 0;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 
 /*Hide button Center White - class: faq-mobile */
@@ -1226,6 +1238,7 @@ input#gform_submit_button_19:hover {
 .page-id-19322 title_subtitle_holder title_subtitle_holder_inner h1 {
     font-size: 3vw;
 }
+
 /*Add Border to Title*/
 /*	border: 5px solid #ffffff;
 }*/

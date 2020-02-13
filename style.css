@@ -392,6 +392,11 @@ div.gform_footer.top_label {
     text-transform: uppercase !important;
 }
 
+/* Add Hero Image to Posts Page /tag/category-tag */
+.title.title_size_small.position_left {
+    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_2_Careers_Hero-e1581613829249.jpg);
+}
+
 .qode-advanced-tabs .qode-advanced-tabs-nav li {
     background-color: #000;
 }

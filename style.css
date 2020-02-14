@@ -99,9 +99,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
-    color: rgba(30, 66, 101, 1);
+    color: #fff !important;
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(30, 66, 101, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
 }
 
@@ -109,8 +109,8 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default:hover {
-    color: rgba(255, 255, 255, 1);
-    background: rgba(30, 66, 101, 1);
+    color: #000 !important;
+    background: rgba(255, 255, 255, 1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
 }
@@ -119,19 +119,19 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton,
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
-.carousel-inner .slider_content .text .qbutton.white {
-    color: rgba(30, 66, 101, 1);
+.carousel-inner .slider_content .text .qbutton.white.default {
+    color: #fff !important;
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(30, 66, 101, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
 }
 
 .carousel-inner .item.dark .slider_content .text .qbutton:hover,
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
-.carousel-inner .slider_content .text .qbutton.white:hover,
-.carousel-inner .slider_content .text .qbutton:hover {
-    color: rgba(255, 255, 255, 1);
-    background: rgba(30, 66, 101, 1);
+.carousel-inner .slider_content .text .qbutton,
+.carousel-inner .slider_content .text .qbutton.white.default:hover {
+    color: #000 !important;
+    background: rgba(255, 255, 255, 1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
 }
@@ -184,12 +184,18 @@ Template: bridge
     color: #fff;
     background: #000;
     border: 2px solid #000;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 
 .qbutton.default:hover {
     color: #000;
     background: #fff;
     border: 2px solid #000;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 
 /*Solid White Button with Black Border - Default */
@@ -198,6 +204,9 @@ Template: bridge
     background: rgba(255, 255, 255, 1);
     border: 2px solid #000;
     border-radius: 0;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 
 .qbutton.center.white.default:hover {
@@ -205,7 +214,18 @@ Template: bridge
     background: rgba(0, 0, 0, 1);
     border: 2px solid #000;
     border-radius: 0;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
+
+/*Hide button Center White - class: faq-mobile */
+@media only screen and (min-width: 768px) {
+    a.qbutton.center.white.default.faq-mobile {
+        display: none;
+    }
+}
+
 
 /*Qode V2 Simple Button w/White Border */
 .qode-btn.qode-btn-simple.v2-white-border-simple {
@@ -627,21 +647,35 @@ span.wpcf7-list-item {
     width: 100%;
 }
 
+/*Style 21Days Daily Email Input Box*/
+
+input#mce-EMAIL.email {
+    border: 2px solid #ABB0B2 !important;
+    height: 2.25rem !important;
+    width: 18rem !important;
+}
+
+
 /*Style 21Days Daily Email Subscribe Button*/
+
 input#mc-embedded-subscribe.button {
     background-color: #0a0a0a;
     color: #fff;
-    border: 1px solid #0a0a0a;
-    font-weight: 700;
+    border: 2px solid #0a0a0a;
+    -webkit-font-smoothing: auto;
     border-radius: 0;
+    height: 100%;
+    width: 100%;
 }
 
 input#mc-embedded-subscribe.button:hover {
     background-color: #fff;
     color: #0a0a0a;
-    border: 1px solid #0a0a0a;
-    font-weight: 700;
+    border: 2px solid #0a0a0a;
+    -webkit-font-smoothing: auto;
     border-radius: 0;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -652,12 +686,16 @@ input#mc-embedded-subscribe.button:hover {
         justify-content: center;
     }
 
+    #mc_embed_signup input.email {
+        min-width: 20rem;
+    }
+
     /*Style 21Days Daily Email Subscribe Button*/
     input#mc-embedded-subscribe.button {
         background-color: #0a0a0a;
         color: #fff;
-        border: 1px solid #0a0a0a;
-        font-weight: 700;
+        border: 2px solid #0a0a0a;
+        -webkit-font-smoothing: auto;
         border-radius: 0;
         width: 20rem;
         margin: auto;
@@ -666,8 +704,8 @@ input#mc-embedded-subscribe.button:hover {
     input#mc-embedded-subscribe.button:hover {
         background-color: #fff;
         color: #0a0a0a;
-        border: 1px solid #0a0a0a;
-        font-weight: 700;
+        border: 2px solid #0a0a0a;
+        -webkit-font-smoothing: auto;
         border-radius: 0;
         width: 20rem;
         margin: auto;
@@ -1035,6 +1073,21 @@ input#gform_submit_button_27:hover {
     border: 2px solid #0a0a0a;
 }
 
+/*Franklin Baptism Class Registration Modal Button*/
+input#gform_submit_button_94.gform_button.button {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+input#gform_submit_button_94.gform_button.button:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
 /*Job Application Modal align column*/
 .ginput_container.ginput_container_fileupload {
     display: flex;
@@ -1180,14 +1233,23 @@ input#gform_submit_button_19:hover {
 
 .title_subtitle_holder .title_subtitle_holder_inner h1 {
     letter-spacing: .3em;
-    font-size: 5em;
+    font-size: 5vw;
     text-transform: uppercase;
     text-align: center;
+    white-space: nowrap;
+}
+
+/*** This is font size for /franklin/pastoralcare/support -CM ***/
+.page-id-19322 title_subtitle_holder title_subtitle_holder_inner h1 {
+    font-size: 3vw;
 }
 
 /*Add Border to Title*/
 /*	border: 5px solid #ffffff;
 }*/
+
+/* Header Text - College */
+
 
 /*Style Next Button on Team Member Volunteer Application*/
 #gform_next_button_13_44 {
@@ -1567,9 +1629,9 @@ input#gform_submit_button_93:hover {
         font-size: 30px !important;
     }
 
-    .qbutton:hover {
+    /* .qbutton:hover {  //Commented out for 21 Days mobile style FAQ Button 12/28/19 
         color: #000 !important;
-    }
+    } */
 }
 
 /*H1 Media Query to contain text for mobile – CKM 9.3.19*/
@@ -1578,9 +1640,10 @@ input#gform_submit_button_93:hover {
         font-size: 15px !important;
     }
 
-    .qbutton:hover {
+    /***** Comment out code to troubleshoot for /21Days ***/
+    /* .qbutton:hover {
         color: #fff !important;
-    }
+    } */
 }
 
 
@@ -2605,7 +2668,44 @@ body div#ui-datepicker-div[style] {
     z-index: 1999999999
 }
 
-/* Custom Style for Page ID 29854 Worship Page*/
-body.page-id-29854:before {
-    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/01/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080.jpg);
+/*21 Days Story - Submit Form*/
+div.p-popup-container {
+    margin: auto !important;
+}
+
+@media screen and (max-width: 490px) {
+    div.p-popup-container {
+        margin: auto !important;
+    }
+}
+
+/*** Styles by Page ID ***/
+/* Worship - He Lives Shareable */
+.page-id-29854 body,
+html {
+    height: 100%;
+}
+
+/* This is background for Worship Page */
+.page-id-29854 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
+    background: url(https://churchofthecity.com/wp-content/uploads/2020/01/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080.jpg) no-repeat fixed center;
+
+    /*Full Height*/
+    height: 100%;
+}
+
+.page-id-14468 .vc_single_image-wrapper .vc_box_border_grey {
+    display: flex;
+}
+
+.page-id-14468 .vc_single_image-img {
+    flex-grow: 1;
+}
+
+/*This is background for Homepage */
+.page-id-30281 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
+    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_HeLivesPromo_HomePage_1080x1080.jpg) no-repeat fixed center;
+
+    /*Set Full Height*/
+    height: 100%;
 }

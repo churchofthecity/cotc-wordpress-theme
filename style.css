@@ -2604,3 +2604,8 @@ body div#ui-datepicker-div[style] {
 #pum-26316 {
     z-index: 1999999999
 }
+
+/* Custom Style for Page ID 29854 Worship Page*/
+body.page-id-29854:before {
+    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/01/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080.jpg);
+}

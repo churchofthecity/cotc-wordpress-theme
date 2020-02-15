@@ -2687,7 +2687,7 @@ html {
 }
 
 /* This is background for Worship Page */
-.page-id-29854 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
+body.page-id-29854 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
     background: url(https://churchofthecity.com/wp-content/uploads/2020/01/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080.jpg) no-repeat fixed center;
 
     /*Full Height*/
@@ -2703,7 +2703,7 @@ html {
 }
 
 /*This is background for Homepage */
-.page-id-30281 vc_row wpb_row section vc_row-fluid grid_section full_screen_section {
+body.page-id-30281 {
     background-image: url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_HeLivesPromo_HomePage_1080x1080.jpg) no-repeat fixed center;
 
     /*Set Full Height*/

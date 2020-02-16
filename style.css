@@ -2709,3 +2709,8 @@ body .page-id-30281:before {
     /*Set Full Height*/
     height: 100%;
 }
+
+/*Background image for Worship - YKHA Section*/
+#myWorshipBG {
+    background-image: url(https://churchofthecity.com/wp-content/uploads/2020/02/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080_Light.jpg);
+}

@@ -2687,12 +2687,12 @@ html {
 }
 
 /* This is background for Worship Page */
-body .page-id-29854:before {
+/* body .page-id-29854:before {
     background: url(https://churchofthecity.com/wp-content/uploads/2020/01/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080.jpg) no-repeat fixed center;
 
     /*Full Height*/
     height: 100%;
-}
+} */
 
 .page-id-14468 .vc_single_image-wrapper .vc_box_border_grey {
     display: flex;
@@ -2703,12 +2703,12 @@ body .page-id-29854:before {
 }
 
 /*This is background for Homepage */
-body .page-id-30281:before {
+/* body .page-id-30281:before {
     background-image: url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_HeLivesPromo_HomePage_1080x1080.jpg) no-repeat fixed center;
 
     /*Set Full Height*/
     height: 100%;
-}
+} */
 
 /*Background image for Worship - YKHA Section*/
 #myWorshipBG {

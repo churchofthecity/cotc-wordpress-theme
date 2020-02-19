@@ -2716,7 +2716,7 @@ html {
 }
 
 /*Custom CSS for FR Women Page*/
-.page-id-17620 div.wpb_wrapper {
+.page-id-17620 div.wpb_wrapper.active {
     display: flex !important;
     justify-content: center !important;
     flex-wrap: wrap !important;

@@ -2717,11 +2717,11 @@ html {
 
 /*Custom CSS for FR Women Page*/
 .page-id-17620 .wpb_wrapper {
-    display: flex !important;
-    justify-content: center !important;
-    flex-wrap: wrap !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .page-id-17620 #btn {
-    margin: 1em !important;
+    margin: 1em;
 }

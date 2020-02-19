@@ -2714,14 +2714,3 @@ html {
 #myWorshipBG {
     background-image: url(https://churchofthecity.com/wp-content/uploads/2020/02/2019_12_COTCWorship_Single_HeLives_Backgrounds_1080x1080_Light.jpg);
 }
-
-/*Custom CSS for FR Women Page*/
-.page-id-17620 .wpb_wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.page-id-17620 #btn {
-    margin: 1em;
-}

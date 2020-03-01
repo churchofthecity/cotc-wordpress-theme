@@ -99,7 +99,7 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
-    color: #fff !important;
+    color: #fff;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 0;
@@ -1629,7 +1629,7 @@ input#gform_submit_button_93:hover {
         font-size: 30px !important;
     }
 
-    /* .qbutton:hover {  //Commented out for 21 Days mobile style FAQ Button 12/28/19 
+    /* .qbutton:hover {  //Commented out for 21 Days mobile style FAQ Button 12/28/19
         color: #000 !important;
     } */
 }
@@ -2694,7 +2694,7 @@ html {
 height: 100%;
 }
 
-*/ 
+*/
 .page-id-14468 .vc_single_image-wrapper .vc_box_border_grey {
         display: flex;
     }

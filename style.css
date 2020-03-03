@@ -1237,6 +1237,9 @@ input#gform_submit_button_19:hover {
     text-transform: uppercase;
     text-align: center;
     white-space: nowrap;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
 }
 
 /*** This is font size for /franklin/pastoralcare/support -CM ***/

@@ -130,9 +130,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default:hover {
-    color: #000;
-    background: rgba(255, 255, 255, 1);
-    border: 2px solid rgba(255, 255, 255, 1);
+    color: #000!important;
+    background: rgba(255, 255, 255, 1)!important;
+    border: 2px solid rgba(255, 255, 255, 1)!important;
     border-radius: 0;
 }
 

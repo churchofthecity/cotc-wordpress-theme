@@ -596,7 +596,10 @@ body .gform_wrapper textarea {
     -webkit-text-stroke-color: black;
 }
 
-
+/*Add some Margin to bring the text/box/button off the edge of window */
+.post-password-form {
+  margin: 2em;
+}
 
 /** Apply border around Input Login Box of password protected page **/
 .post-password-form input[type=password] {

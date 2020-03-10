@@ -596,17 +596,10 @@ body .gform_wrapper textarea {
     -webkit-text-stroke-color: black;
 }
 
-/* Password Protected Forms */
-/*Give Password Input a Border */
-.post-password-form input[type=password] {
-    border: 2px solid #0a0a0a!important;
-    margin: 2em !important;
-}
 
 
 /** Apply border around Input Login Box of password protected page **/
-input#pwbox-29417,
-input.post-password-form input[type=password] {
+.post-password-form input[type=password] {
     border: 2px solid #000 !important;
     width: 25% !important;
 }

@@ -26,7 +26,16 @@ function wpb_login_logo() { ?>
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'wpb_login_logo' );
+//Link Logo to churchofthecity.com
+function wpb_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'wpb_login_logo_url' );
 
+function wpb_login_logo_url_title() {
+    return 'https://churchofthecity.com';
+}
+add_filter( 'login_headertitle', 'wpb_login_logo_url_title' );
 
 // enqueue the child theme stylesheet
 

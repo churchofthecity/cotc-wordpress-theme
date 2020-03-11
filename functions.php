@@ -46,8 +46,10 @@ add_filter( 'login_headertitle', 'wpb_login_logo_url_title' );
 // enqueue the child theme stylesheet
 
 Function wp_schools_enqueue_scripts() {
-  wp_register_style( 'childstyle', get_stylesheet_directory_uri() . '/style.css'  );
-  wp_enqueue_style( 'childstyle' );
+  // wp_register_style( 'childstyle', get_stylesheet_directory_uri() . '/style.css'  );
+  // wp_enqueue_style( 'childstyle' );
+  /*Replace script above and enqueue both register & enqueue in one for efficiency */
+  wp_enqueue_style( 'childstyle', get_stylesheet_directory_uri() . '/style.css', array(), '1.0.1' );
   wp_enqueue_script("cotc_custom", get_stylesheet_directory_uri() ."/js/cotc_custom.js", array('jquery'), false, true);
 }
 add_action( 'wp_enqueue_scripts', 'wp_schools_enqueue_scripts', 11);

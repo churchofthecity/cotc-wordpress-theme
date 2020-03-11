@@ -1,18 +1,3 @@
-//Customize Login PAGE
-function wpb_login_logo() { ?>
-  <style type="text/css">
-  #login h1 a, .login h1 a {
-    background-image: url(https://churchofthecity.com/wp-content/uploads/2018/05/COTC-Logo-Story-Submission.png);
-    height:100px;
-    width:300px;
-    background-size: 300px 100px;
-    background-repeat: no-repeat;
-    padding-bottom: 10px;
-  }
-  </style>
-<?php }
-add_action( 'login_enqueue_scripts', 'wpb_login_logo' );
-
 <?php
 require 'event-calendar.php';
 
@@ -27,6 +12,20 @@ add_filter( 'gettext', 'remove_lostpassword_text' );
 function disable_password_reset() { return false; }
 add_filter ( 'allow_password_reset', 'disable_password_reset' );
 
+//Customize Login PAGE
+function wpb_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(https://churchofthecity.com/wp-content/uploads/2018/05/COTC-Logo-Story-Submission.png);
+        height:100px;
+        width:300px;
+        background-size: 300px 100px;
+        background-repeat: no-repeat;
+        padding-bottom: 10px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'wpb_login_logo' );
 
 
 // enqueue the child theme stylesheet

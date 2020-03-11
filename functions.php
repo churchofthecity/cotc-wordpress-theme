@@ -16,10 +16,10 @@ add_filter ( 'allow_password_reset', 'disable_password_reset' );
 function wpb_login_logo() { ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-            background-image: url(https://churchofthecity.com/wp-content/uploads/2017/02/Church-of-the-City-Logo-e1488298174456.jpg);
-        height:100px;
-        width:300px;
-        background-size: 300px 100px;
+            background-image: url(https://churchofthecity.com/wp-content/uploads/2015/07/Header-Logo-White-Taller.png);
+        height:225px;
+        width:325px;
+        background-size: 325px 225px;
         background-repeat: no-repeat;
         padding-bottom: 10px;
         }

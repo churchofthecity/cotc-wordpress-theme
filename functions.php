@@ -23,6 +23,12 @@ function wpb_login_logo() { ?>
         background-repeat: no-repeat;
         padding-bottom: 10px;
         }
+        body.login {
+          background-image: url(https://churchofthecity.com/wp-content/uploads/2019/12/default-img-scaled.jpg)
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+        }
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'wpb_login_logo' );

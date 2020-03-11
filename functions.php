@@ -24,7 +24,7 @@ function wpb_login_logo() { ?>
         padding-bottom: 10px;
         }
         body.login {
-          background-image: url(https://churchofthecity.com/wp-content/uploads/2019/12/default-img-scaled.jpg)
+          background-image: url(https://churchofthecity.com/wp-content/uploads/2019/12/default-img-scaled.jpg);
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-position: center;

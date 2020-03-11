@@ -45,7 +45,7 @@ add_filter( 'login_headertitle', 'wpb_login_logo_url_title' );
 
 // enqueue the child theme stylesheet
 
-Function wp_schools_enqueue_scripts() {
+function wp_schools_enqueue_scripts() {
   wp_register_style( 'childstyle', get_stylesheet_directory_uri() . '/style.css'  );
   wp_enqueue_style( 'childstyle' );
   wp_enqueue_script("cotc_custom", get_stylesheet_directory_uri() ."/js/cotc_custom.js", array('jquery'), false, true);

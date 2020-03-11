@@ -16,7 +16,7 @@ add_filter ( 'allow_password_reset', 'disable_password_reset' );
 function wpb_login_logo() { ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-            background-image: url(https://churchofthecity.com/wp-content/uploads/2018/05/COTC-Logo-Story-Submission.png);
+            background-image: url(https://churchofthecity.com/wp-content/uploads/2017/02/Church-of-the-City-Logo-e1488298174456.jpg);
         height:100px;
         width:300px;
         background-size: 300px 100px;

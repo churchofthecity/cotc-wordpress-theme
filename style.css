@@ -1220,6 +1220,20 @@ input#gform_submit_button_19:hover {
     color: #0a0a0a;
     border: 2px solid #0a0a0a;
 }
+/*Style SH Benevolence Submit Button*/
+input#gform_submit_button_42 {
+    background-color: #0a0a0a;
+    border-radius: 0;
+    color: #fff;
+    border: 2px solid #0a0a0a;
+}
+
+input#gform_submit_button_42:hover {
+    background-color: #fff;
+    border-radius: 0;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
 
 /**** HERO IMAGE SOLUTION TO DISPLAY NAME OF PAGE ON TOP OF HERO IMAGE ******/
 /*Title Text Font Size & Spacing*/

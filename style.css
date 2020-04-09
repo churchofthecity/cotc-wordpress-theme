@@ -99,9 +99,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default {
-    color: #fff!important;
-    background: rgba(255, 255, 255, 0.1)!important;
-    border: 2px solid rgba(255, 255, 255, 1)!important;
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid rgba(255, 255, 255, 1) !important;
     border-radius: 0;
 }
 
@@ -109,9 +109,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.green:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.green.default:hover {
-    color: #000000!important;
-    background: #ffffff!important;
-    border: 2px solid #ffffff!important;
+    color: #000000 !important;
+    background: #ffffff !important;
+    border: 2px solid #ffffff !important;
     border-radius: 0;
 }
 
@@ -120,9 +120,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default {
-    color: #fff!important;
-    background: rgba(255, 255, 255, 0.1)!important;
-    border: 2px solid rgba(255, 255, 255, 1)!important;
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid rgba(255, 255, 255, 1) !important;
     border-radius: 0;
 }
 
@@ -130,9 +130,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default:hover {
-    color: #000!important;
-    background: #ffffff!important;
-    border: 2px solid #ffffff!important;
+    color: #000 !important;
+    background: #ffffff !important;
+    border: 2px solid #ffffff !important;
     border-radius: 0;
 }
 
@@ -142,16 +142,20 @@ Template: bridge
     padding: 0.75em 1.5em;
     font-weight: bold;
     border-radius: 0;
-    border: 1px solid #fff;
+    width: 50%;
+    color: rgba(88, 100, 77, 1) !important;
+    border: 2px solid rgba(88, 100, 77, 1);
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .qode-btn.qode-btn-solid.v2-solid-button:hover {
-    color: #fff;
     padding: 0.75em 1.5em;
     font-weight: bold;
-    background-color: rgba(254, 254, 254, 0.1);
+    width: 50%;
+    color: #fff;
+    background-color: rgba(88, 100, 77, 1) !important;
     border-radius: 0;
-    border: 2px solid #fff;
+    border: 2px solid rgba(88, 100, 77, 1);
 }
 
 /*Style Default Qbutton Medium*/
@@ -598,7 +602,7 @@ body .gform_wrapper textarea {
 
 /*Add some Margin to bring the text/box/button off the edge of window */
 .post-password-form {
-  margin: 2em;
+    margin: 2em;
 }
 
 /** Apply border around Input Login Box of password protected page **/
@@ -1220,6 +1224,7 @@ input#gform_submit_button_19:hover {
     color: #0a0a0a;
     border: 2px solid #0a0a0a;
 }
+
 /*Style SH Benevolence Submit Button*/
 input#gform_submit_button_42 {
     background-color: #0a0a0a;
@@ -2709,19 +2714,19 @@ html {
 } */
 
 .page-id-14468 .vc_single_image-wrapper .vc_box_border_grey {
-        display: flex;
-    }
+    display: flex;
+}
 
 .page-id-14468 .vc_single_image-img {
-        flex-grow: 1;
-    }
+    flex-grow: 1;
+}
 
-    /*This is background for Homepage */
-    /* body .page-id-30281:before {
+/*This is background for Homepage */
+/* body .page-id-30281:before {
     background-image: url(https://churchofthecity.com/wp-content/uploads/2020/02/2020_HeLivesPromo_HomePage_1080x1080.jpg) no-repeat fixed center;
 
     /*Set Full Height*/
-    /* height: 100%; */
+/* height: 100%; */
 /* } */
 
 

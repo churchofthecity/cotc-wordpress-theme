@@ -120,9 +120,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default {
-    color: #fff !important;
+    color: rgba(88, 100, 77, 1) !important;
     background: rgba(255, 255, 255, 0.1) !important;
-    border: 2px solid rgba(255, 255, 255, 1) !important;
+    border: 2px solid rgba(88, 100, 77, 1) !important;
     border-radius: 0;
 }
 
@@ -130,9 +130,9 @@ Template: bridge
 .carousel-inner .item.dark .slider_content .text .qbutton.white:hover,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default:hover {
-    color: #000 !important;
-    background: #ffffff !important;
-    border: 2px solid #ffffff !important;
+    color: #fff !important;
+    background: rgba(88, 100, 77, 1) !important;
+    border: 2px solid rgba(88, 100, 77, 1) !important;
     border-radius: 0;
 }
 

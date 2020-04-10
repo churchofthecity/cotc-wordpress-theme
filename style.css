@@ -116,7 +116,7 @@ Template: bridge
 }
 
 /*White Button Style - Home page */
-/* .carousel-inner .item.dark .slider_content .text .qbutton,
+.carousel-inner .item.dark .slider_content .text .qbutton,
 .carousel-inner .item.dark .slider_content .text .qbutton.white,
 .carousel-inner .slider_content .text .qbutton,
 .carousel-inner .slider_content .text .qbutton.white.default {
@@ -134,7 +134,7 @@ Template: bridge
     background: rgba(88, 100, 77, 1) !important;
     border: 2px solid rgba(88, 100, 77, 1) !important;
     border-radius: 0;
-} */
+}
 
 /*Qode V2 Buttons Styling*/
 /*Solid White Button*/

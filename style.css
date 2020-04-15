@@ -1626,6 +1626,17 @@ input#gform_submit_button_93:hover {
     border-radius: 0;
 }
 
+/*Start of Receive Care Form */
+input#gform_next_button_95_33 {
+    border: 2px solid #000 !important;
+
+}
+
+input#gform_next_button_95_33:hover {
+    border: 2px solid #000 !important;
+
+}
+
 input#gform_previous_button_95 {
     border-radius: 0;
     border: 2px solid #000 !important;

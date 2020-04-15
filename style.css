@@ -1629,12 +1629,12 @@ input#gform_submit_button_93:hover {
 /*Start of Receive Care Form */
 input#gform_next_button_95_33 {
     border: 2px solid #000 !important;
-
+    border-radius: 0;
 }
 
 input#gform_next_button_95_33:hover {
     border: 2px solid #000 !important;
-
+    border-radius: 0;
 }
 
 input#gform_previous_button_95 {

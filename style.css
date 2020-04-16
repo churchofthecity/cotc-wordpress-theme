@@ -1702,7 +1702,22 @@ input#gform_next_button_96_22:hover {
     border-radius: 0;
 }
 
+input#gform_next_button_96_28 {
+    border: 2px solid #0a0a0a !important;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_next_button_96_28:hover {
+    border: 2px solid #0a0a0a !important;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
 /* Save and Continue Button style */
+/* Page 1 */
 #gform_save_96_2_link {
     border: 2px solid #000;
     padding: 0.3em 0.5em;
@@ -1716,7 +1731,7 @@ input#gform_next_button_96_22:hover {
     background: #000;
     color: #fff;
 }
-
+/*Page 2 - Save & Continue*/
 #gform_save_96_3_link {
     border: 2px solid #000;
     padding: 0.3em 0.5em;
@@ -1724,6 +1739,20 @@ input#gform_next_button_96_22:hover {
 }
 
 #gform_save_96_3_link:hover {
+    border: 2px solid #000;
+    padding: 0.3em 0.5em;
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+}
+/*Page 3 - Save & Continue*/
+#gform_save_96_4_link {
+    border: 2px solid #000;
+    padding: 0.3em 0.5em;
+    font-weight: 700;
+}
+
+#gform_save_96_4_link:hover {
     border: 2px solid #000;
     padding: 0.3em 0.5em;
     font-weight: 700;

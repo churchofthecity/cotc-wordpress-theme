@@ -1814,6 +1814,34 @@ input#gform_next_button_96_45:hover {
     border-radius: 0;
 }
 
+/*Page 7*/
+input#gform_previous_button_96_81 {
+    border: 2px solid #0a0a0a !important;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_previous_button_96_81:hover {
+    border: 2px solid #0a0a0a !important;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+input#gform_next_button_96_81 {
+    border: 2px solid #0a0a0a !important;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_next_button_96_81:hover {
+    border: 2px solid #0a0a0a !important;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+
 
 /* Save and Continue Button style */
 /* Page 1 */
@@ -1898,6 +1926,21 @@ input#gform_next_button_96_45:hover {
 }
 
 #gform_save_96_7_link:hover {
+    border: 2px solid #000;
+    padding: 0.3em 0.5em;
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+}
+
+/*Page 7*/
+#gform_save_96_8_link {
+    border: 2px solid #000;
+    padding: 0.3em 0.5em;
+    font-weight: 700;
+}
+
+#gform_save_96_8_link:hover {
     border: 2px solid #000;
     padding: 0.3em 0.5em;
     font-weight: 700;

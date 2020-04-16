@@ -1735,8 +1735,22 @@ input#gform_previous_button_96_34 {
     background-color: #0a0a0a;
     color: #fff;
     border-radius: 0;
-34
+}
+
 input#gform_previous_button_96_34:hover {
+    border: 2px solid #0a0a0a !important;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0a0a0a;
+    border-radius: 0;
+}
+input#gform_next_button_96_34 {
+    border: 2px solid #0a0a0a !important;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 0;
+}
+
+input#gform_next_button_96_34:hover {
     border: 2px solid #0a0a0a !important;
     background-color: rgba(0, 0, 0, 0);
     color: #0a0a0a;

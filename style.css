@@ -346,6 +346,11 @@ ol {
     font-style: normal;
     font-weight: 300;
 }
+li {
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 300;
+}
 
 header {
     font-family: "Gotham SSm A", "Gotham SSm B";

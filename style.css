@@ -346,6 +346,7 @@ ol {
     font-style: normal;
     font-weight: 300;
 }
+
 li {
     font-family: "Gotham SSm A", "Gotham SSm B";
     font-style: normal;
@@ -3226,4 +3227,9 @@ input#gform_next_button_96:hover {
     /* Removes Margin from bottom of YKHA Video loop - Home Page */
     .page-id-30281 .wpb_content_element {
         margin-bottom: -4px !important;
+    }
+
+    /*Around the Table - Accordion Style*/
+    .page-id-31950 .att-accordion {
+        font-family: "Gotham SSm A", "Gotham SSm B";
     }

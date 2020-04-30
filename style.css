@@ -1946,6 +1946,7 @@ input#gform_next_button_96:hover {
     background-color: rgba(0, 0, 0, 0);
     color: #0a0a0a;
     border-radius: 0
+}
 
     /* Save and Continue Button style */
     /* Page 1 */
@@ -2083,7 +2084,7 @@ input#gform_next_button_96:hover {
         color: #fff;
     }
 
-    *Page 10*/
+    /*Page 10*/
 
     /*File Upload Selector*/
     input#gform_browse_button_96_92 {

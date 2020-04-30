@@ -1636,16 +1636,13 @@ input#gform_submit_button_93:hover {
 input#gform_next_button_95_33 {
     border: 2px solid #000 !important;
     border-radius: 0;
-    background-color: #000;
-    color:#fff;
-
 }
 
 input#gform_next_button_95_33:hover {
     border: 2px solid #000 !important;
     border-radius: 0;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000000;
 }
 
 input#gform_previous_button_95 {
